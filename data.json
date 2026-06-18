@@ -1,0 +1,776 @@
+[
+  {
+    "title": "Sun Temple",
+    "image": "images/sun-temple.jpg",
+    "description": "Wood Art Object for Luxury Interior Sculptural wood art from 300-year-old oak. Form holds light like a sacred space. Handcrafted art object for luxury homes and private collections.",
+    "dimensions": "14 × 10 × 20 in",
+    "weight": "9 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Vessel of Light",
+    "image": "images/vessel-of-light.jpg",
+    "description": "Vessel of Light — Wood Art Sculpture for Interior Wood art object from ancient oak. Form as a vessel where light is present, not just illuminating. Handcrafted for luxury interiors and private collections.",
+    "dimensions": "8 × 33 × 55 in",
+    "weight": "2 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Before Words",
+    "image": "images/before-words.jpg",
+    "description": "Before Words — Wood Art Sculpture for Luxury Interior Two forms leaning toward each other. Handcrafted wood sculpture from 300-year-old oak. A unique art object where meaning emerges in the pause before words.",
+    "dimensions": "12 × 12 × 18 in",
+    "weight": "9 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Evening Light",
+    "image": "images/evening-light.jpg",
+    "description": "Evening Light — Wood Art Object for Luxury Home Wood sculpture from 300-year-old oak. Soft light, quiet completion. A handcrafted art object that holds the feeling of evening in any luxury interior.",
+    "dimensions": "22 × 10 × 16 in",
+    "weight": "9 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Only Love",
+    "image": "images/only-love.jpg",
+    "description": "Only Love — Wood Art Sculpture for Luxury Interior Handcrafted wood sculpture from 300-year-old oak. Form stripped to its essence — only feeling remains. A unique art object for luxury interiors and private collections.",
+    "dimensions": "14 × 6 × 15 in",
+    "weight": "7 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Open Heart",
+    "image": "images/open-heart.jpg",
+    "description": "Open Heart — Wood Art Object for Luxury Interior Handcrafted wood sculpture from 300-year-old oak. Natural form, fire and wax finish. A unique art object for luxury interiors and private collections.",
+    "dimensions": "20 × 8 × 20 in",
+    "weight": "11 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Within",
+    "image": "images/within.jpg",
+    "description": "Within — Wood Art Sculpture for Luxury Home Wood sculpture from ancient oak. Space concentrated inside the form. A quiet, handcrafted art object for luxury interiors and private collections.",
+    "dimensions": "11 × 6 × 12 in",
+    "weight": "4 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Turning of Time",
+    "image": "images/turning-of-time.jpg",
+    "description": "Turning of Time — Wood Art Object for Luxury Office Handcrafted wood sculpture from 300-year-old oak. Form shifts with movement — time felt as a turn, not a flow. A unique art object for luxury offices and private collections.",
+    "dimensions": "30 × 7 × 16 in",
+    "weight": "13 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Shadow of Form",
+    "image": "images/shadow-of-form.jpg",
+    "description": "Shadow of Form — Wood Art Object for Luxury Interior Wall-mounted wood sculpture from 300-year-old oak root. Form emerges from the depth of the material — discovered, not designed. A unique art object for luxury homes and private clubs.",
+    "dimensions": "26 × 12 × 8 in",
+    "weight": "9 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Spirit of Time",
+    "image": "images/spirit-of-time.jpg",
+    "description": "Spirit of Time — Wood Art Object for Luxury Interior Wood sculpture from ancient spruce with natural bark beetle traces. Time preserved in the structure of the wood. A unique art object for luxury interiors and private collections.",
+    "dimensions": "35 × 10 × 24 in",
+    "weight": "13 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Whole",
+    "image": "images/whole.jpg",
+    "description": "Whole — Wood Art Object for Luxury Interior Wood sculpture from ancient oak. Complete form, balance achieved naturally. A handcrafted art object for luxury restaurants and private interiors.",
+    "dimensions": "6 × 4 × 12 in",
+    "weight": "2 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Waiting for Wings",
+    "image": "images/waiting-for-wings.jpg",
+    "description": "Waiting for Wings — Wood Art Object for Luxury Home Wood sculpture from 300-year-old oak placed at a stone entrance. Space prepared for life. A handcrafted art object that brings natural energy to luxury homes and estates.",
+    "dimensions": "16 × 16 × 14 in",
+    "weight": "13 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Gold Fish",
+    "image": "images/gold-fish.jpg",
+    "description": "Formed from the preserved outer shell of a 300-year-old oak fragment, this sculpture recalls the silhouette of a fish emerging from darkness. Time, wind, and decay shaped the contours long before intervention. Subtle gilding and candlelight bring the surface to life, revealing shifting reflections and organic curves.",
+    "dimensions": "31 × 7 × 17 in",
+    "weight": "14 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Wild forms",
+    "image": "images/wild-forms.jpg",
+    "description": "Created from a weathered fragment of a 300-year-old oak, this work captures the tension and rhythm of organic motion. The natural lines of the wood define the composition, while antique chrome-plated horse figures introduce a contrasting metallic accent. Light animates the surface, emphasizing depth and internal movement.",
+    "dimensions": "47.2 × 23.6 in",
+    "weight": "33 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "The Joker's Smile",
+    "image": "images/the-joker-s-smile.jpg",
+    "description": "A rare oak cross-section shaped by time into an unexpected expression. Two candles act as luminous focal points, giving the piece a subtle, playful tension. Compact in scale, strong in character.",
+    "dimensions": "15 × 5 × 15 in",
+    "weight": "6 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Wave of luck",
+    "image": "images/wave-of-luck.jpg",
+    "description": "This sculptural candle piece is created from the preserved outer part of a centuries-old oak trunk that was struck by lightning and burned out almost entirely from within. The natural form resembles a rising wave frozen in motion. At the center rests a natural pearl shell with a candle symbolizing a hidden treasure. Candlelight plays across the curves of the wood, revealing gold-tinted textures and the dramatic relief shaped by fire and time. The piece is finished with wax and gilding. The stand is crafted from Siberian larch and wrapped with rope. This is a rare, naturally formed structure — a true one-of-a-kind piece shaped by nature and refined by hand.",
+    "dimensions": "29 x 11 x 33 in",
+    "weight": "35 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Dance of Fire",
+    "image": "images/dance-of-fire.jpg",
+    "description": "Twisted oak fragments rise upward in a dynamic, flame-like motion. The composition emphasizes vertical tension and internal rhythm. A sculptural study of movement shaped by fire, time, and gravity.",
+    "dimensions": null,
+    "weight": null,
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Shell of Hera",
+    "image": "images/shell-of-hera.jpg",
+    "description": "Carved from the trunk of a 300-year-old oak, partially hollowed and scorched by time. A natural mother-of-pearl shell holds the candle at its center. The work carries a calm, protective presence associated with Hera and feminine symbolism.",
+    "dimensions": "39.4 × 11 × 31.5 in",
+    "weight": "33 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Embrace of Zeus",
+    "image": "images/embrace-of-zeus.jpg",
+    "description": "Formed from the base of a 300-year-old oak struck by lightning. The burned relief and curved fragments create an open, mythic silhouette associated with Zeus. Candlelight reveals internal tension and latent energy within the wood.",
+    "dimensions": "37 × 13 × 39 in",
+    "weight": "54 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Apollo's Lyre",
+    "image": "images/apollo-s-lyre.jpg",
+    "description": "A naturally sculpted oak fragment forms the silhouette of a lyre. Seven vertical brass elements rise like strings, each crowned with candlelight. The contrast between raw wood and precise metal creates a dialogue between nature and classical order.",
+    "dimensions": "33 × 8 × 28 in",
+    "weight": "44 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Tree of life, Bahrain",
+    "image": "images/tree-of-life-bahrain.jpg",
+    "description": "Inspired by the legendary Tree of Life in Bahrain, this sculpture speaks to endurance and quiet strength. The oak trunk, hollowed by time and struck by lightning, retains its raw natural relief. Gold leaf, coral elements, and soft candlelight create a calm, steady glow that emphasizes resilience rather than spectacle.",
+    "dimensions": "30 × 13 × 28 in",
+    "weight": "35 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "The Wing",
+    "image": "images/the-wing.jpg",
+    "description": "Carved from the branch of a 300-year-old oak, this sculpture combines spiritual symbolism with documented historical context. The tree grew along Napoleon Bonaparte’s 1812 campaign route. With candles lit, the form transforms into a luminous, celestial presence.",
+    "dimensions": "39.8 × 16.9 × 31.9 in",
+    "weight": "92.6 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Wings of Light",
+    "image": "images/wings-of-light.jpg",
+    "description": "Created from a 300-year-old oak, this work unites sacred text and light. Carved wings rise from a base shaped like ancient Torah pages, forming a full Hanukkiah with an elevated shamash. The piece functions equally as sculpture and ritual object, emphasizing illumination, memory, and continuity.",
+    "dimensions": null,
+    "weight": null,
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Wings of Soulrise",
+    "image": "images/wings-of-soulrise.jpg",
+    "description": "Two mirrored fragments of a 300-year-old oak form a pair of wings, with the shamash rising gently between them. The composition functions as a Hanukkiah, where light ascends through form. Gold and wax finishes highlight the depth of the aged wood, reinforcing the upward motion of the piece.",
+    "dimensions": "35 × 8 × 23 in",
+    "weight": "approx. 21 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "The Grand Menorah",
+    "image": "images/the-grand-menorah.jpg",
+    "description": "Sculpted from a fallen piece of centuries-old oak, this menorah uses a natural split in the wood to create a wing-like silhouette. Brass candle holders rise vertically, forming a clear ceremonial structure. A restrained ritual object with strong architectural presence.",
+    "dimensions": "18 × 6 × 20 in",
+    "weight": "15.4 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Ancient Torah Pages (Hanukkiah)",
+    "image": "images/ancient-torah-pages-hanukkiah.jpg",
+    "description": "Carved from a 300-year-old oak grown on historic land crossed by Napoleon’s troops. The form recalls an ancient prayer book, with candlelight rising above the carved surface. A compact yet symbolically dense ritual sculpture.",
+    "dimensions": "32 × 7 × 16 in",
+    "weight": "20 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Maccabee Flames",
+    "image": "images/maccabee-flames.jpg",
+    "description": "Crafted from a fallen spruce trunk marked by bark beetle patterns resembling ancient inscriptions. Nine candle holders form a traditional Hanukkiah structure, with the shamash positioned forward. A work bridging natural history and Jewish memory.",
+    "dimensions": "41 × 11 × 18 in",
+    "weight": "approx. 20 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Tablets of Stone",
+    "image": "images/tablets-of-stone.jpg",
+    "description": "Created from the dry trunk of a century-old spruce, this composition evokes Mount Sinai and the moment of receiving the Tablets of Stone. The natural split of the wood defines the form. A solemn, monumental work presented at the Central Synagogue of Moscow.",
+    "dimensions": "33.1 × 15.7 × 43.3 in",
+    "weight": "93 lbs",
+    "status": "Not available for purchase",
+    "price": null
+  },
+  {
+    "title": "Calvary",
+    "image": "images/calvary.jpg",
+    "description": "Carved from a 300-year-old Russian oak, Calvary depicts the moment of Christ carrying the cross. The wood originates from a region crossed by Napoleon’s troops in 1812, embedding historical depth into the material itself. A large-scale, museum-grade work where spiritual symbolism and the weight of time converge.",
+    "dimensions": "19.7 × 66.9 × 27.6 in",
+    "weight": "99 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Vigilance",
+    "image": "images/vigilance.jpg",
+    "description": "Created from a naturally aged fragment of a 300-year-old oak, this sculptural candle piece preserves the authentic texture of the wood, reinforced to maintain its original form. The deep relief reflects centuries of natural shaping. A bronze lion adds a symbolic presence and a sense of quiet strength. Four candle points are integrated into the composition, and when lit, they reveal additional depth and emphasize the sculptural silhouette. The base is made of Siberian larch, finished with traditional wood wax and subtle gold accents. A considered, contemplative work suited for curated interiors, private collections, and gallery displays.",
+    "dimensions": "27 × 11 × 11 in",
+    "weight": "22 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Light of the Torah",
+    "image": "images/light-of-the-torah.jpg",
+    "description": "This sculptural Hanukkiah is crafted from a 300-year-old dry oak from Russia. The wings are shaped from the preserved outer part of the trunk, while the central disk with the Star of David is carved from a branch cross-section. The candles are placed in a classic Hanukkiah arrangement, with the central candle set on a stand inspired by a traditional Jewish hat. The base resembles a symbolic Torah made from solid oak. These ancient oaks grew in regions of Russia where Napoleon’s troops passed in 1812, giving the wood a remarkable historical resonance. Lit candles enhance the sculpture’s atmosphere, highlighting the natural beauty of the oak and the spiritual symbolism of the piece.",
+    "dimensions": "43 x 10 x 17 in",
+    "weight": "26 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Grace",
+    "image": "images/grace.jpg",
+    "description": "Grace is an exploration of form, movement, and quiet emotion. The sculpture invites the viewer to consider what grace truly is. Does it echo something alive, or does it emerge from abstract lines and silhouettes? As the piece rotates, every angle reveals a new character, shifting from fluid to dramatic, always remaining harmonious. Crafted from the root of a fallen centuries-old oak, the sculpture carries the natural energy of time and the refined touch of hand-carving. The larch base anchors the composition with calm strength. Wax treatment, darkening techniques, gilded highlights, and small candle elements complete the piece, adding warmth and depth.",
+    "dimensions": "15 × 20 × 10 in",
+    "weight": "12 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Venice Solo",
+    "image": "images/venice-solo.jpg",
+    "description": "A sculptural composition built around rhythm, balance, and architectural silence. The aged oak surface retains traces of time, while the vertical structure recalls the cadence of Venetian facades.",
+    "dimensions": "28 × 7 × 15 in",
+    "weight": "15 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Ocean Spirit",
+    "image": "images/ocean-spirit.jpg",
+    "description": "Formed from naturally shaped oak, this work evokes the mass and calm movement of water. The sculpture reads as a quiet presence rather than a literal image.",
+    "dimensions": "32 x 7 x 12 in",
+    "weight": "14 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Rebirth",
+    "image": "images/rebirth.jpg",
+    "description": "This piece is crafted from a preserved outer section of a three-hundred-year-old oak tree. All the inner wood had long since turned to dust, leaving only the resilient outer shell shaped by time and nature. Its flowing contours hint at the form of a fantastical creature emerging from the past, brought to life by the warm glow of candlelight. The structure of the head, the relief, the natural lines and openings are untouched nature’s work. The surface is treated with wax and subtle gilding, revealing the depth of the ancient oak and emphasizing its sculptural plasticity.",
+    "dimensions": "27 × 10 × 22 in",
+    "weight": "18 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "The Golden Fleece",
+    "image": "images/the-golden-fleece.jpg",
+    "description": "Inspired by myth rather than depiction, the work explores value, protection, and material memory. Gold accents highlight the contrast between raw wood and refined surface.",
+    "dimensions": "25 × 11 × 30 in",
+    "weight": "22 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Abduction of Europa",
+    "image": "images/abduction-of-europa.jpg",
+    "description": "A dynamic sculptural form referencing movement and transformation. The oak’s natural curves guide the composition, allowing the mythological association to remain understated.",
+    "dimensions": "11.8 × 11.8 × 27.5 in",
+    "weight": "22 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Bird of paradise",
+    "image": "images/bird-of-paradise.jpg",
+    "description": "Wood Art Object for Luxury Interior A living bird of paradise transforms into crystal — suspended on a handcrafted wood sculpture from 300-year-old oak. A unique art object for luxury interiors.",
+    "dimensions": "14 × 7 × 21 in",
+    "weight": "13 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Guardian of the State",
+    "image": "images/guardian-of-the-state.jpg",
+    "description": "A solid, grounded object emphasizing stability and presence. The sculpture relies on mass and proportion rather than ornament.",
+    "dimensions": "35 × 10 × 20 in",
+    "weight": "22 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Ascension",
+    "image": "images/ascension.jpg",
+    "description": "A vertical sculptural study focused on upward movement. The natural grain of the oak reinforces the sense of growth and elevation.",
+    "dimensions": "17 × 6 × 28 in",
+    "weight": "18 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Wild Cat the Jaguar",
+    "image": "images/wild-cat-the-jaguar.jpg",
+    "description": "A compact animal form shaped by contrast between tension and restraint. The sculpture avoids realism, focusing instead on posture and latent energy.",
+    "dimensions": "33 × 8 × 11 in",
+    "weight": "16 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "The Boar",
+    "image": "images/the-boar.jpg",
+    "description": "A dense, grounded form emphasizing strength and resistance. The natural surface of the wood remains largely untouched, reinforcing physical presence.",
+    "dimensions": "6 × 18 × 14 in",
+    "weight": "6.6 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "The Rhino",
+    "image": "images/the-rhino.jpg",
+    "description": "A heavy, grounded sculptural form built around mass and inner tension. The aged oak carries a sense of endurance and quiet force, suggesting power held in restraint rather than motion.",
+    "dimensions": "12 × 8 × 12 in",
+    "weight": "6.6 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Bullfighting",
+    "image": "images/bullfighting.jpg",
+    "description": "A composition shaped by confrontation and balance. The form captures the moment before impact, where strength and vulnerability exist simultaneously within the same structure.",
+    "dimensions": null,
+    "weight": null,
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "The Owl of Athens",
+    "image": "images/the-owl-of-athens.jpg",
+    "description": "A contemplative sculptural object referencing vigilance and wisdom. The oak surface remains largely untouched, allowing age, grain, and shadow to define the character of the piece.",
+    "dimensions": "32 x 7 x 16 in",
+    "weight": "20 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "The legend of the falcon",
+    "image": "images/the-legend-of-the-falcon.jpg",
+    "description": "An elongated form emphasizing speed and elevation. The sculpture suggests flight through proportion and rhythm rather than literal depiction.",
+    "dimensions": "35 × 9.8 × 37.4 in",
+    "weight": "33 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Dragon dance",
+    "image": "images/dragon-dance.jpg",
+    "description": "A dynamic composition built from twisting oak fragments. Movement unfolds vertically, guided by natural curves and internal momentum.",
+    "dimensions": "32.6 × 11.8 × 19.6 in",
+    "weight": "26.4 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Varan and dragonfly",
+    "image": "images/varan-and-dragonfly.jpg",
+    "description": "A dual presence captured within a single structure. The contrast between weight and lightness defines the tension of the piece, balancing stillness with implied motion.",
+    "dimensions": "15.7 × 31.4 in",
+    "weight": "26.4 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Touch of the ocean",
+    "image": "images/touch-of-the-ocean.jpg",
+    "description": "A smooth, flowing form shaped by erosion and time. The sculpture carries a sense of quiet contact, as if the surface remembers the movement of water.",
+    "dimensions": "34 × 9 × 3 in",
+    "weight": "33 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Cachalot's Shadow",
+    "image": "images/cachalot-s-shadow.jpg",
+    "description": "A sculptural silhouette inspired by scale and depth rather than image. The darkened oak surface absorbs light, emphasizing mass and inner volume.",
+    "dimensions": "40 × 9.8 × 15.7 in",
+    "weight": "11 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Night Flight",
+    "image": "images/night-flight.jpg",
+    "description": "A compact vertical form suggesting motion through darkness. The sculpture reads as a moment suspended between ascent and disappearance.",
+    "dimensions": "44 × 7 × 16 in",
+    "weight": "17 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Rising moon",
+    "image": "images/rising-moon.jpg",
+    "description": "A restrained, circular gesture emerging from the wood. Light and shadow interact gently, giving the piece a calm, cyclical presence.",
+    "dimensions": "30 × 14.5 × 36.6 in",
+    "weight": "28.6 lb",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Crescent Moon",
+    "image": "images/crescent-moon.jpg",
+    "description": "A curved sculptural form shaped by natural fracture and erosion. The crescent appears as a quiet sign of transition, holding light without reflecting it directly.",
+    "dimensions": "30 x 14.5 x 36.6 in",
+    "weight": "28.6 lb",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Mirage",
+    "image": "images/mirage.jpg",
+    "description": "An ambiguous form that shifts with perspective and light. The sculpture suggests presence and distance at once, as if the material resists a fixed reading.",
+    "dimensions": "15.7 × 17.7 × 11.8 in",
+    "weight": "11 lb",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Vertical",
+    "image": "images/vertical.jpg",
+    "description": "A minimal vertical structure emphasizing proportion and balance. The aged oak surface carries subtle variation, allowing form to remain restrained and precise.",
+    "dimensions": "19.6 × 11.8 × 23.6 in",
+    "weight": "22 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Prayer",
+    "image": "images/prayer.jpg",
+    "description": "A compact sculptural object centered on stillness and inward focus. The composition relies on simplicity and natural texture rather than symbolism.",
+    "dimensions": "25 × 10 × 27 in",
+    "weight": "27 pounds",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Sacred Oak",
+    "image": "images/sacred-oak.jpg",
+    "description": "A fragment of oak presented with minimal intervention. The sculpture preserves the tree’s natural authority, treating the material itself as the primary subject.",
+    "dimensions": "28 × 8 × 20 in",
+    "weight": "~20 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Paradise tree",
+    "image": "images/paradise-tree.jpg",
+    "description": "A vertical composition recalling growth and branching without literal reference. Light interacts with the surface, reinforcing a sense of continuity and renewal.",
+    "dimensions": "22.4 × 7 × 15.7 in",
+    "weight": "6 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Angel with a candle",
+    "image": "images/angel-with-a-candle.jpg",
+    "description": "A quiet figurative suggestion formed through posture rather than detail. Candlelight introduces a soft focal point, giving the sculpture a gentle, watchful presence.",
+    "dimensions": "18 x 10 x 20 in",
+    "weight": "22 lb",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Embrace",
+    "image": "images/embrace.jpg",
+    "description": "A close, inward composition shaped by two converging forms. The sculpture communicates connection through proximity and shared volume rather than narrative.",
+    "dimensions": "19 × 10 × 17 in",
+    "weight": "16 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Line of Light",
+    "image": "images/line-of-light.jpg",
+    "description": "A linear gesture carved into aged oak. Light traces the structure, emphasizing direction, rhythm, and restraint.",
+    "dimensions": "50 × 12 × 6 in",
+    "weight": "approx. 24 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Openwork",
+    "image": "images/openwork.jpg",
+    "description": "A perforated form where voids are as important as mass. The sculpture reads as a balance between structure and absence.",
+    "dimensions": "31.4 × 15.7 in",
+    "weight": "4.4 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Menorah Vintage",
+    "image": "images/menorah-vintage.jpg",
+    "description": "A restrained menorah built from aged oak with a patina shaped by time. The form carries a sense of continuity, where use and memory are held within the material itself.",
+    "dimensions": "29 × 8 × 23 in",
+    "weight": "12 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Menorah sunrise",
+    "image": "images/menorah-sunrise.jpg",
+    "description": "A vertical composition where light rises gradually through structure. The oak surface reflects warmth softly, suggesting the beginning of illumination rather than its peak.",
+    "dimensions": "approx. 22 x 7 x 12 in",
+    "weight": "approx. 9 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Menorah",
+    "image": "images/menorah.jpg",
+    "description": "A minimal interpretation of the traditional form. Proportion and balance take precedence over ornament, allowing light to define the presence of the object.",
+    "dimensions": "approx. 18 x 12 x 14 in",
+    "weight": "approx. 14–16 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Mehorah Imperial",
+    "image": "images/mehorah-imperial.jpg",
+    "description": "A more monumental menorah with a clear architectural rhythm. The weight of the oak gives the piece a grounded, ceremonial character.",
+    "dimensions": "6 × 18 × 20 in",
+    "weight": "17.6 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Menorah Lite",
+    "image": "images/menorah-lite.jpg",
+    "description": "A lighter, more open variation focused on clarity and spacing. The sculpture emphasizes air and distance between elements, giving light room to breathe.",
+    "dimensions": "21 x 6 x 12 in",
+    "weight": "11 lbs",
+    "status": "Available",
+    "price": null
+  },
+  {
+    "title": "Oak Arc Menorah",
+    "image": "images/oak-arc-menorah.jpg",
+    "description": "A compact menorah carved from dense oak, where material strength defines the structure. The object feels contained and deliberate, with light acting as a quiet accent.",
+    "dimensions": "35.4 × 9.8 × 13 in",
+    "weight": "approx. 15.4 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Artwork Menorah Rainbow",
+    "image": "images/artwork-menorah-rainbow.jpg",
+    "description": "A sculptural menorah where subtle color interacts with flame. The work explores variation and harmony without disrupting the underlying form.",
+    "dimensions": "23 × 6 × 10 in",
+    "weight": "8.8 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Joy of light (hanukkah)",
+    "image": "images/joy-of-light-hanukkah.jpg",
+    "description": "A warm, celebratory interpretation focused on openness and glow. The sculpture emphasizes atmosphere over structure, allowing light to shape perception.",
+    "dimensions": "45.3 × 8.7 × 28.7 in",
+    "weight": "16.5 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Seven lights",
+    "image": "images/seven-lights.jpg",
+    "description": "A reduced, symmetrical arrangement where balance and proportion dominate. Light functions as a unifying element rather than a focal point.",
+    "dimensions": "35 × 10 × 37 in",
+    "weight": "28.6 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Talk to me",
+    "image": "images/talk-to-me.jpg",
+    "description": "A calm, horizontal composition suggesting rest and pause. The aged oak surface absorbs light gently, reinforcing a sense of closure and quiet continuity.",
+    "dimensions": "12 × 12 × 18 in",
+    "weight": "20 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Golden bar",
+    "image": "images/golden-bar.jpg",
+    "description": "A minimalist object defined by proportion and material density. The work balances between sculpture and design, relying on precision rather than expression.",
+    "dimensions": "22.4 × 7 × 15.7 in",
+    "weight": "6 lb",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Wall street",
+    "image": "images/wall-street.jpg",
+    "description": "A rigid, vertical composition evoking structure, pressure, and accumulation. The oak surface carries tension through restraint rather than surface detail.",
+    "dimensions": "12 × 5 × 12 in",
+    "weight": "4.4 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "As-salam wall clock",
+    "image": "images/as-salam-wall-clock.jpg",
+    "description": "A wall-mounted object combining function and symbolism. Time is presented quietly, embedded within the material rather than emphasized.",
+    "dimensions": "22 × 16 × 2 in",
+    "weight": "13 lb",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Trophy Clock",
+    "image": "images/trophy-clock.jpg",
+    "description": "A compact sculptural clock where function becomes secondary to form. The object reads as a marker of duration rather than measurement.",
+    "dimensions": "14 × 19 × 4 in",
+    "weight": "13 lb",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Royal Clock Tower in Mecca. Hommage.",
+    "image": "images/royal-clock-tower-in-mecca-hommage.jpg",
+    "description": "An architectural object referencing vertical landmarks and timekeeping structures. Scale and symmetry define its presence.",
+    "dimensions": "14 × 9 × 43 in",
+    "weight": "12 lb",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "Burj Khalifa. Hommage.",
+    "image": "images/burj-khalifa-hommage.jpg",
+    "description": "A slender vertical composition inspired by extreme height and precision. The sculpture emphasizes ascent and proportion without literal imitation.",
+    "dimensions": "9.8 × 9 × 34 in",
+    "weight": "33 lb",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "The Christmas Tree",
+    "image": "images/the-christmas-tree.jpg",
+    "description": "A simplified seasonal form reduced to structure and outline. Light and surface interact softly, avoiding decorative excess.",
+    "dimensions": null,
+    "weight": null,
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Christmas Trinity",
+    "image": "images/christmas-trinity.jpg",
+    "description": "A symbolic grouping built around balance and repetition. The composition suggests unity through form rather than narrative detail.",
+    "dimensions": "9 x 7,8 in",
+    "weight": "3,3 lbs",
+    "status": "Available",
+    "price": null
+  },
+  {
+    "title": "Cave paintings",
+    "image": "images/cave-paintings.jpg",
+    "description": "A textured surface recalling early marks and traces. The sculpture treats surface as memory, preserving irregularity and depth.",
+    "dimensions": "39.3 × 4 in",
+    "weight": "11 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Cave Flames",
+    "image": "images/cave-flames.jpg",
+    "description": "A compact form where fire becomes an internal presence. The oak absorbs light, creating depth rather than reflection.",
+    "dimensions": "23.6 × 11.8 × 7.8 in",
+    "weight": "approx. 15-16 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Cave of Light",
+    "image": "images/cave-of-light.jpg",
+    "description": "An inward-facing composition shaped around containment and glow. Light is held rather than projected outward.",
+    "dimensions": "23.6 × 11.8 × 7.8 in",
+    "weight": "7 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Lurking Lizard",
+    "image": "images/lurking-lizard.jpg",
+    "description": "A low, grounded form suggesting stillness and alertness. The sculpture avoids detail, focusing on posture and mass.",
+    "dimensions": "12 × 12 × 22 in",
+    "weight": "15.4 lbs",
+    "status": "Sold",
+    "price": null
+  },
+  {
+    "title": "The Echo of the jungle",
+    "image": "images/the-echo-of-the-jungle.jpg",
+    "description": "An organic composition shaped by irregular rhythm. The surface carries layered textures, suggesting sound and movement without depiction.",
+    "dimensions": "27 x 17 x 13 in",
+    "weight": "13 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  },
+  {
+    "title": "Eight Flames of Miracle",
+    "image": "images/eight-flames-of-miracle.jpg",
+    "description": "This symbolic composition represents a Hanukkiah. The central candle rises above eight surrounding flames. The Hanukkiah is crafted from a hollow cross-section of dry birch, set above a base shaped like the golden pages of the Torah, carved from ancient oak. The structure appears to float, enhancing its spiritual character and sense of elevation.",
+    "dimensions": "15 x 13 x 11 in",
+    "weight": "24 lbs",
+    "status": "Available",
+    "price": "Upon request"
+  }
+]

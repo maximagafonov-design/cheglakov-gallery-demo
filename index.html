@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cheglakov Art — Works Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Lora:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>The Witnessing Woods</h1>
+  <p class="topbar__subtitle">All works by Alexander Cheglakov</p>
+  <div class="search">
+    <input id="search" type="text" placeholder="Search by title…" autocomplete="off">
+    <span id="search-count" class="search__count"></span>
+  </div>
+</header>
+
+<main id="grid" class="grid"></main>
+
+<p id="empty" class="empty hidden">No works match “<span id="empty-query"></span>”</p>
+
+<div id="modal" class="modal hidden" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" data-close aria-label="Close">&times;</button>
+    <div class="modal-img"><img id="modal-img" src="" alt=""></div>
+    <div class="modal-body">
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+      <div class="modal-meta">
+        <span id="modal-dims"></span>
+        <span id="modal-weight"></span>
+      </div>
+      <span id="modal-status" class="badge"></span>
+      <a id="modal-cta" class="cta" href="#">Inquire about price</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
