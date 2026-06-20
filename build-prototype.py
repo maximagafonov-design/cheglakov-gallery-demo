@@ -21,7 +21,7 @@ SECTIONS = {
     "Organic Forms": ["Wild forms", "Wave of luck", "Dance of Fire", "Touch of the ocean", "Rising moon",
                        "Crescent Moon", "Mirage", "Vertical", "The Echo of the jungle",
                        "Abduction of Europa", "Ascension", "Cave paintings", "Embrace", "Night Flight",
-                       "Openwork", "Paradise tree", "Sacred Oak", "Shell of Hera", "Talk to me",
+                       "Openwork", "Paradise tree", "Sacred Oak", "Shell of Hera",
                        "The Golden Fleece"],
     "Architectural Objects": ["As-salam wall clock", "Trophy Clock", "Royal Clock Tower in Mecca. Hommage.",
                                "Burj Khalifa. Hommage.", "Wall street", "Golden bar", "Guardian of the State"],
@@ -52,11 +52,12 @@ for section, titles in SECTIONS.items():
             continue
         status_class = "available" if w["status"] == "Available" else ("sold" if w["status"] == "Sold" else "na")
         desc = (w.get("description") or "").replace('"', '&quot;')
+        desc_ru = (w.get("description_ru") or w.get("description") or "").replace('"', '&quot;')
         dims = w.get("dimensions") or "—"
         images_attr = json.dumps(w.get("images") or [w["image"]]).replace('"', '&quot;')
         tiles.append(f'''
         <div class="tile" data-title="{w['title'].lower()}" onclick="openCard(this)"
-             data-en="{desc}" data-ru="{desc}" data-status-en="{w['status']}" data-status-ru="{STATUS_RU.get(w['status'], w['status'])}"
+             data-en="{desc}" data-ru="{desc_ru}" data-status-en="{w['status']}" data-status-ru="{STATUS_RU.get(w['status'], w['status'])}"
              data-dims="{dims}" data-images="{images_attr}">
           <img src="{w['image']}" alt="{w['title']}" loading="lazy">
           <div class="tile-overlay">
@@ -153,10 +154,10 @@ html = f'''<!DOCTYPE html>
   .section-header {{ padding:40px 28px 8px; }}
   .section-label {{ font-size:11px; letter-spacing:2px; color:#c9a468; text-transform:uppercase; }}
   .section-title {{ font-size:28px; font-style:italic; margin-top:6px; }}
-  .tile-grid {{ display:grid; grid-template-columns:repeat(6,1fr); gap:5px; padding:16px 28px; }}
-  .tile {{ position:relative; overflow:hidden; aspect-ratio:1; background:#1c1815; cursor:pointer; }}
-  .tile img {{ width:100%; height:100%; object-fit:cover; display:block; filter:brightness(0.75) sepia(0.15); transition:filter 0.3s, transform 0.4s; }}
-  .tile:hover img {{ filter:brightness(0.95) sepia(0.1); transform:scale(1.18); }}
+  .tile-grid {{ column-count:6; column-gap:5px; padding:16px 28px; }}
+  .tile {{ position:relative; overflow:hidden; background:#1c1815; cursor:pointer; margin-bottom:5px; break-inside:avoid; }}
+  .tile img {{ width:100%; height:auto; display:block; filter:brightness(0.75) sepia(0.15); transition:filter 0.3s, transform 0.4s; }}
+  .tile:hover img {{ filter:brightness(0.95) sepia(0.1); transform:scale(1.1); }}
   .tile-overlay {{ position:absolute; bottom:0; left:0; right:0; padding:10px; background:linear-gradient(transparent, rgba(10,9,8,0.92)); }}
   .tile-title {{ font-size:12px; color:#e8d9bd; }}
   .tile-status {{ font-size:9px; letter-spacing:1px; text-transform:uppercase; margin-top:2px; }}
@@ -164,8 +165,8 @@ html = f'''<!DOCTYPE html>
   .tile-status.sold {{ color:#a87a6b; }}
   .tile-status.na {{ color:#6b5d49; }}
   .tile.hidden {{ display:none; }}
-  .viz-tile {{ position:relative; overflow:hidden; aspect-ratio:1; background:#1c1815; }}
-  .viz-tile img {{ width:100%; height:100%; object-fit:cover; display:block; filter:brightness(0.75) sepia(0.15); }}
+  .viz-tile {{ position:relative; overflow:hidden; background:#1c1815; margin-bottom:5px; break-inside:avoid; }}
+  .viz-tile img {{ width:100%; height:auto; display:block; filter:brightness(0.75) sepia(0.15); }}
   footer {{ text-align:center; padding:32px; font-size:10px; letter-spacing:2px; color:#5a4d3c; border-top:1px solid #2a231c; margin-top:24px; }}
   .text-section {{ padding-bottom:20px; border-bottom:1px solid #2a231c; }}
   .prose {{ padding:0 28px; max-width:700px; line-height:1.7; color:#cdbf9e; font-size:14px; }}
@@ -174,14 +175,14 @@ html = f'''<!DOCTYPE html>
   .exh-row strong {{ color:#c9a468; min-width:90px; }}
   .modal-bg {{ display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); z-index:50; align-items:center; justify-content:center; }}
   .modal-bg.open {{ display:flex; }}
-  .modal-card {{ background:#0a0908; border:1px solid #3a2f24; max-width:520px; max-height:90vh; overflow-y:auto; padding:28px; position:relative; }}
-  .modal-close {{ position:absolute; top:10px; right:14px; cursor:pointer; color:#a8916b; font-size:18px; z-index:2; }}
+  .modal-card {{ background:#0a0908; border:1px solid #3a2f24; width:min(1300px, 95vw); max-height:95vh; overflow-y:auto; padding:28px; position:relative; }}
+  .modal-close {{ position:absolute; top:10px; right:14px; cursor:pointer; color:#a8916b; font-size:24px; z-index:2; background:rgba(10,9,8,0.6); width:34px; height:34px; border-radius:50%; display:flex; align-items:center; justify-content:center; }}
   .modal-carousel {{ position:relative; background:#000; margin:-28px -28px 18px; }}
-  #modal-img {{ width:100%; max-height:360px; object-fit:contain; display:block; background:#000; }}
-  .carousel-arrow {{ position:absolute; top:50%; transform:translateY(-50%); background:rgba(10,9,8,0.6); border:1px solid #c9a468; color:#c9a468; width:32px; height:32px; border-radius:50%; cursor:pointer; font-size:16px; display:flex; align-items:center; justify-content:center; }}
-  .carousel-prev {{ left:10px; }}
-  .carousel-next {{ right:10px; }}
-  .carousel-counter {{ position:absolute; bottom:10px; right:14px; font-size:11px; color:#e8d9bd; background:rgba(10,9,8,0.65); padding:3px 9px; border-radius:10px; letter-spacing:1px; }}
+  #modal-img {{ width:100%; max-height:75vh; object-fit:contain; display:block; background:#000; }}
+  .carousel-arrow {{ position:absolute; top:50%; transform:translateY(-50%); background:rgba(10,9,8,0.6); border:1px solid #c9a468; color:#c9a468; width:48px; height:48px; border-radius:50%; cursor:pointer; font-size:22px; display:flex; align-items:center; justify-content:center; }}
+  .carousel-prev {{ left:16px; }}
+  .carousel-next {{ right:16px; }}
+  .carousel-counter {{ position:absolute; bottom:14px; right:18px; font-size:13px; color:#e8d9bd; background:rgba(10,9,8,0.65); padding:4px 11px; border-radius:10px; letter-spacing:1px; }}
   #modal-title {{ font-size:22px; font-style:italic; color:#c9a468; margin-bottom:10px; }}
   #modal-desc {{ font-size:13px; line-height:1.6; color:#cdbf9e; margin-bottom:10px; }}
   #modal-meta {{ font-size:11px; color:#8a7a5f; letter-spacing:1px; }}
@@ -196,7 +197,8 @@ html = f'''<!DOCTYPE html>
   footer a:hover {{ color:#f0dcae; text-decoration:underline; }}
   .footer-links {{ display:flex; gap:18px; }}
   @media (max-width: 768px) {{
-    .tile-grid {{ grid-template-columns:repeat(3,1fr); gap:3px; padding:10px; }}
+    .tile-grid {{ column-count:3; column-gap:3px; padding:10px; }}
+    .tile {{ margin-bottom:3px; }}
     nav {{ order:3; width:100%; justify-content:center; }}
     #search {{ width:130px; }}
   }}

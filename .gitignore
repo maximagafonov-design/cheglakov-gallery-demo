@@ -3,4 +3,6 @@ images-raw/
 node_modules/
 cheglakov-main.html
 cheglakov-archive.html
+cheglakov-main-rus.html
+cheglakov-archive-rus.html
 carousel-data.json

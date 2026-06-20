@@ -8,9 +8,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/sun-temple.jpg",
-      "images/sun-temple-2.jpg"
-    ]
+      "images/sun-temple.jpg"
+    ],
+    "description_ru": "Форма удерживает свет как в замкнутом пространстве. Тишина и тепло собираются в едином центре."
   },
   {
     "title": "Vessel of Light",
@@ -21,9 +21,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/vessel-of-light.jpg",
-      "images/vessel-of-light-2.jpg"
-    ]
+      "images/vessel-of-light.jpg"
+    ],
+    "description_ru": "Форма как чаша, в которой возникает свет. Свет не освещает — он присутствует."
   },
   {
     "title": "Before Words",
@@ -34,9 +34,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/before-words.jpg",
-      "images/before-words-2.jpg"
-    ]
+      "images/before-words.jpg"
+    ],
+    "description_ru": "Две формы склоняются друг к другу. Смысл возникает в паузе перед словами."
   },
   {
     "title": "Evening Light",
@@ -47,9 +47,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/evening-light.jpg",
-      "images/evening-light-2.jpg"
-    ]
+      "images/evening-light.jpg"
+    ],
+    "description_ru": "Свет становится мягким и спокойным. Форма удерживает состояние завершения. Дуб, возраст до 300 лет"
   },
   {
     "title": "Only Love",
@@ -61,7 +61,8 @@
     "price": "Upon request",
     "images": [
       "images/only-love.jpg"
-    ]
+    ],
+    "description_ru": "Форма лишена лишнего, остаётся только чувство. Простота становится смыслом."
   },
   {
     "title": "Open Heart",
@@ -72,9 +73,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/open-heart.jpg",
-      "images/open-heart-2.jpg"
-    ]
+      "images/open-heart.jpg"
+    ],
+    "description_ru": "Форма раскрыта и направлена навстречу. Свет проходит свободно, без сопротивления. Дуб, возраст до 300 лет"
   },
   {
     "title": "Within",
@@ -85,9 +86,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/within.jpg",
-      "images/within-2.jpg"
-    ]
+      "images/within.jpg"
+    ],
+    "description_ru": "Пространство сосредоточено внутри формы. Всё происходит в тишине."
   },
   {
     "title": "Turning of Time",
@@ -98,9 +99,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/turning-of-time.jpg",
-      "images/turning-of-time-2.jpg"
-    ]
+      "images/turning-of-time.jpg"
+    ],
+    "description_ru": "Форма меняется при движении. Время ощущается как поворот, а не как течение."
   },
   {
     "title": "Shadow of Form",
@@ -111,9 +112,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/shadow-of-form.jpg",
-      "images/shadow-of-form-2.jpg"
-    ]
+      "images/shadow-of-form.jpg"
+    ],
+    "description_ru": "Форма возникает из глубины материала. Она не задана, а обнаружена. Корень, Дуб возраст до 300 лет"
   },
   {
     "title": "Spirit of Time",
@@ -124,9 +125,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/spirit-of-time.jpg",
-      "images/spirit-of-time-2.jpg"
-    ]
+      "images/spirit-of-time.jpg"
+    ],
+    "description_ru": "Следы времени сохраняются в структуре дерева. Форма становится носителем памяти."
   },
   {
     "title": "Whole",
@@ -138,7 +139,8 @@
     "price": "Upon request",
     "images": [
       "images/whole.jpg"
-    ]
+    ],
+    "description_ru": "Завершённая форма без напряжения. Баланс достигается естественно."
   },
   {
     "title": "Waiting for Wings",
@@ -150,7 +152,8 @@
     "price": "Upon request",
     "images": [
       "images/waiting-for-wings.jpg"
-    ]
+    ],
+    "description_ru": "Пространство, подготовленное для жизни. Ожидание, в котором уже есть присутствие."
   },
   {
     "title": "Gold Fish",
@@ -162,9 +165,9 @@
     "price": "Upon request",
     "images": [
       "images/gold-fish.jpg",
-      "images/gold-fish-2.jpg",
-      "images/gold-fish-3.jpg"
-    ]
+      "images/gold-fish-2.jpg"
+    ],
+    "description_ru": "Созданная из сохранённой внешней оболочки фрагмента 300-летнего дуба, эта скульптура напоминает силуэт рыбы, возникающей из глубины. Время, ветер и естественное разрушение сформировали её контуры задолго до вмешательства. Тонкое золочение и свет свечей оживляют поверхность, раскрывая меняющиеся отражения и органические изгибы. Размеры: 79 × 18 × 43 см"
   },
   {
     "title": "Wild forms",
@@ -175,9 +178,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/wild-forms.jpg",
-      "images/wild-forms-2.jpg"
-    ]
+      "images/wild-forms.jpg"
+    ],
+    "description_ru": "Созданная из выветренного фрагмента 300-летнего дуба, эта работа передаёт напряжение и ритм органического движения. Природные линии поверхности дерева формируют композицию, в то время как антикварные хромированные фигурки лошадей добавляют контрастный металлический акцент. Свет оживляет поверхность, подчёркивая глубину и внутреннее движение. Размеры: 120 × 60 см"
   },
   {
     "title": "The Joker's Smile",
@@ -190,9 +193,9 @@
     "images": [
       "images/the-joker-s-smile.jpg",
       "images/the-joker-s-smile-2.jpg",
-      "images/the-joker-s-smile-3.jpg",
-      "images/the-joker-s-smile-4.jpg"
-    ]
+      "images/the-joker-s-smile-3.jpg"
+    ],
+    "description_ru": "Редкое дубовое сечение, сформированное временем в неожиданное выражение. Две свечи становятся световыми центрами композиции, придавая работе тонкое, слегка игровое выражение. Компактная по масштабу, но сильная по характеру. Размеры: 38 × 13 × 38 см"
   },
   {
     "title": "Wave of luck",
@@ -204,7 +207,8 @@
     "price": "Upon request",
     "images": [
       "images/wave-of-luck.jpg"
-    ]
+    ],
+    "description_ru": "Этот скульптура создана из сохранившейся внешней части 300-летнего дубового ствола, поражённого молнией и почти полностью выгоревшего изнутри. Его природная форма напоминает поднимающуюся волну, застывшую в движении. В центре расположена натуральная раковина с жемчужным отблеском со свечой, символизирующей скрытое сокровище. Свет свечи скользит по перламутру поверхности раковины. В произведении раскрываются фактура и драматический рельеф, сформированный огнём и временем. Работа покрыта воском и частично позолочена. Основание выполнено из сибирской лиственницы и обёрнуто канатом. Редкая природная структура — по-настоящему уникальный объект, сформированный природой и завершённый рукой мастера. Размеры: 74 × 28 × 84 см"
   },
   {
     "title": "Dance of Fire",
@@ -215,9 +219,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/dance-of-fire.jpg",
-      "images/dance-of-fire-2.jpg"
-    ]
+      "images/dance-of-fire.jpg"
+    ],
+    "description_ru": "Уникальный фрагмент корня дуба, поднимается вверх в динамичном движении, напоминающем пламя. Композиция подчёркивает вертикальное напряжение и внутренний ритм. Скульптурное исследование движения, сформированного огнём, временем и силой гравитации. Размеры: 67-37-101см"
   },
   {
     "title": "Shell of Hera",
@@ -229,7 +233,8 @@
     "price": "Upon request",
     "images": [
       "images/shell-of-hera.jpg"
-    ]
+    ],
+    "description_ru": "Создана из ствола 300-летнего дуба, с естественным разломом и обожжённого временем. В центре расположена натуральная перламутровая раковина со свечой. Работа несёт спокойное защитное присутствие, связанное с образом Геры и символикой женского начала. Размеры: 100 × 28 × 80 см"
   },
   {
     "title": "Embrace of Zeus",
@@ -245,9 +250,9 @@
       "images/embrace-of-zeus-3.jpg",
       "images/embrace-of-zeus-4.jpg",
       "images/embrace-of-zeus-5.jpg",
-      "images/embrace-of-zeus-6.jpg",
-      "images/embrace-of-zeus-7.jpg"
-    ]
+      "images/embrace-of-zeus-6.jpg"
+    ],
+    "description_ru": "Создана из основания 300-летнего дуба, поражённого молнией. Обожжённый рельеф и изогнутые фрагменты формируют открытую мифическую форму, ассоциирующуюся с образом Зевса. Свет свечей раскрывает внутреннее напряжение и скрытую энергию древесины. Размеры: 94 × 33 × 99 см"
   },
   {
     "title": "Apollo's Lyre",
@@ -259,9 +264,9 @@
     "price": "Upon request",
     "images": [
       "images/apollo-s-lyre.jpg",
-      "images/apollo-s-lyre-2.jpg",
-      "images/apollo-s-lyre-3.jpg"
-    ]
+      "images/apollo-s-lyre-2.jpg"
+    ],
+    "description_ru": "Естественно сформированный фрагмент дуба образует силуэт лиры. Семь вертикальных латунных элементов поднимаются подобно струнам, каждая из которых завершается огнём свечи. Контраст между необработанной древесиной и точной металлической структурой создаёт диалог между природой и классическим порядком. Размеры: 84 × 20 × 71 см"
   },
   {
     "title": "Tree of life, Bahrain",
@@ -273,9 +278,9 @@
     "price": "Upon request",
     "images": [
       "images/tree-of-life-bahrain.jpg",
-      "images/tree-of-life-bahrain-2.jpg",
-      "images/tree-of-life-bahrain-3.jpg"
-    ]
+      "images/tree-of-life-bahrain-2.jpg"
+    ],
+    "description_ru": "Вдохновлённая легендарным Древом жизни в Бахрейне, эта скульптура говорит о стойкости и тихой силе. Дубовый ствол, опустошённый временем и поражённый молнией, сохраняет свой естественный рельеф. Золотая фольга, коралловые элементы и мягкий свет свечей создают спокойное, устойчивое сияние, подчёркивающее выносливость, а не эффектность. Размеры: 76 × 33 × 71 см"
   },
   {
     "title": "The Wing",
@@ -288,9 +293,9 @@
     "images": [
       "images/the-wing.jpg",
       "images/the-wing-2.jpg",
-      "images/the-wing-3.jpg",
-      "images/the-wing-4.jpg"
-    ]
+      "images/the-wing-3.jpg"
+    ],
+    "description_ru": "Естественная часть ветви 300-летнего дуба, эта скульптура соединяет духовную символику с документированным историческим контекстом. Дерево росло вдоль маршрута кампании Наполеона Бонапарта 1812 года. Когда зажигаются свечи, форма превращается в светящееся, почти небесное присутствие. Размеры: 101 × 43 × 81 см"
   },
   {
     "title": "Wings of Light",
@@ -305,9 +310,9 @@
       "images/wings-of-light-2.jpg",
       "images/wings-of-light-3.jpg",
       "images/wings-of-light-4.jpg",
-      "images/wings-of-light-5.jpg",
-      "images/wings-of-light-6.jpg"
-    ]
+      "images/wings-of-light-5.jpg"
+    ],
+    "description_ru": "Созданная из 300-летнего дуба, эта работа объединяет священный текст и свет. Резные крылья поднимаются из основания, напоминающего древние страницы Торы, образуя ханукию с возвышенным шамашем. Работа одновременно существует как скульптура и как ритуальный объект, подчёркивая темы света, памяти и непрерывности. Размеры: —"
   },
   {
     "title": "Wings of Soulrise",
@@ -323,9 +328,9 @@
       "images/wings-of-soulrise-3.jpg",
       "images/wings-of-soulrise-4.jpg",
       "images/wings-of-soulrise-5.jpg",
-      "images/wings-of-soulrise-6.jpg",
-      "images/wings-of-soulrise-7.jpg"
-    ]
+      "images/wings-of-soulrise-6.jpg"
+    ],
+    "description_ru": "Два зеркально расположенных фрагмента 300-летнего дуба образуют пару крыльев, между которыми мягко поднимается шамаш. Композиция функционирует как ханукия, где свет поднимается через форму. Золото и восковое покрытие подчёркивают глубину старой древесины, усиливая восходящее движение композиции. Размеры: 89 × 20 × 58 см"
   },
   {
     "title": "The Grand Menorah",
@@ -336,9 +341,9 @@
     "status": "Sold",
     "price": null,
     "images": [
-      "images/the-grand-menorah.jpg",
-      "images/the-grand-menorah-2.jpg"
-    ]
+      "images/the-grand-menorah.jpg"
+    ],
+    "description_ru": "Созданная из фрагмента упавшего векового дуба. Эта менора использует естественный форму среза ствола. Латунные подсвечники поднимаются вертикально, создавая чёткую, почти архитектурную ритуальную структуру. Размеры: 46 × 15 × 51 см"
   },
   {
     "title": "Ancient Torah Pages (Hanukkiah)",
@@ -352,9 +357,9 @@
       "images/ancient-torah-pages-hanukkiah.jpg",
       "images/ancient-torah-pages-hanukkiah-2.jpg",
       "images/ancient-torah-pages-hanukkiah-3.jpg",
-      "images/ancient-torah-pages-hanukkiah-4.jpg",
-      "images/ancient-torah-pages-hanukkiah-5.jpg"
-    ]
+      "images/ancient-torah-pages-hanukkiah-4.jpg"
+    ],
+    "description_ru": "Создана из 300-летнего дуба, выросшего на исторической земле, по которой проходили войска Наполеона. Форма напоминает древнюю молитвенную книгу, из которой поднимается свет свечей. Компактная, но насыщенная символикой ритуальная скульптура. Размеры: 81 × 18 × 41 см"
   },
   {
     "title": "Maccabee Flames",
@@ -371,9 +376,9 @@
       "images/maccabee-flames-4.jpg",
       "images/maccabee-flames-5.jpg",
       "images/maccabee-flames-6.jpg",
-      "images/maccabee-flames-7.jpg",
-      "images/maccabee-flames-8.jpg"
-    ]
+      "images/maccabee-flames-7.jpg"
+    ],
+    "description_ru": "Создана из естественной формы ствола ели, поверхность которого покрыта следами короеда, напоминающими древние письмена. Девять подсвечников формируют традиционную структуру ханукии, с вынесенным вперёд шамашем. Работа соединяет природную историю и еврейскую память. Размеры: 104 × 28 × 46 см"
   },
   {
     "title": "Tablets of Stone",
@@ -384,9 +389,9 @@
     "status": "Not available for purchase",
     "price": null,
     "images": [
-      "images/tablets-of-stone.jpg",
-      "images/tablets-of-stone-2.jpg"
-    ]
+      "images/tablets-of-stone.jpg"
+    ],
+    "description_ru": "Созданная из сухого ствола вековой ели, эта композиция отсылает к горе Синай и моменту получения Скрижалей Завета. Естественный раскол древесины определяет форму. Монументальная работа с выраженным духовным присутствием, представлена в синагоге Chabad of South Dade, Coconut Grove, Miami. Размеры: 84 × 40 × 110 см"
   },
   {
     "title": "Calvary",
@@ -400,9 +405,9 @@
       "images/calvary.jpg",
       "images/calvary-2.jpg",
       "images/calvary-3.jpg",
-      "images/calvary-4.jpg",
-      "images/calvary-5.jpg"
-    ]
+      "images/calvary-4.jpg"
+    ],
+    "description_ru": "Создана из фрагмента 300-летнего дуба, работа Calvary передаёт момент несения креста. Дерево происходит из региона, через который проходили войска Наполеона в 1812 году, что добавляет историческую глубину самому материалу. Крупномасштабная, музейного уровня работа, в которой сходятся духовный символизм и вес времени. Размеры: 50 × 170 × 70 см"
   },
   {
     "title": "Vigilance",
@@ -413,9 +418,9 @@
     "status": "Sold",
     "price": null,
     "images": [
-      "images/vigilance.jpg",
-      "images/vigilance-2.jpg"
-    ]
+      "images/vigilance.jpg"
+    ],
+    "description_ru": "Созданная из естественно состаренного фрагмента 300-летнего дуба, эта работа сохраняет подлинную текстуру древесины, лишь укреплённую для сохранения формы. Глубокий рельеф отражает века естественного формирования. Бронзовый лев добавляет символическое присутствие и ощущение тихой силы. Размеры: 69 × 28 × 28 см"
   },
   {
     "title": "Light of the Torah",
@@ -428,9 +433,9 @@
     "images": [
       "images/light-of-the-torah.jpg",
       "images/light-of-the-torah-2.jpg",
-      "images/light-of-the-torah-3.jpg",
-      "images/light-of-the-torah-4.jpg"
-    ]
+      "images/light-of-the-torah-3.jpg"
+    ],
+    "description_ru": "Эта скульптурная ханукия создана из 300-летнего сухого дуба из России. Крылья сформированы из внешней части ствола, а центральный диск со звездой Давида вырезан из спила ветви того же дерева. Свечи расположены в классической композиции ханукии, с центральной свечой, установленной на подставке, вдохновлённой традиционным еврейским головным убором. Основание отсылает к символическому образу Торы. Древесина происходит из регионов России, где проходили войска Наполеона в 1812 году, придавая материалу историческую глубину. Зажжённые свечи усиливают атмосферу работы, раскрывая природную красоту дуба и духовную символику. Размеры: 109 × 25 × 43 см"
   },
   {
     "title": "Grace",
@@ -442,7 +447,8 @@
     "price": "Upon request",
     "images": [
       "images/grace.jpg"
-    ]
+    ],
+    "description_ru": "Grace — это исследование формы, движения и тихой эмоции. Скульптура приглашает зрителя задуматься о природе грации: отражает ли она нечто живое или возникает из абстрактных линий и силуэтов? При вращении каждая сторона открывает новый характер, переходя от текучего к драматичному, оставаясь при этом гармоничной. Созданная из корня упавшего векового дуба, работа несёт в себе природную энергию и силу времени. Размеры: 38 × 51 × 25 см"
   },
   {
     "title": "Venice Solo",
@@ -454,9 +460,9 @@
     "price": "Upon request",
     "images": [
       "images/venice-solo.jpg",
-      "images/venice-solo-2.jpg",
-      "images/venice-solo-3.jpg"
-    ]
+      "images/venice-solo-2.jpg"
+    ],
+    "description_ru": "Скульптурная композиция, построенная на ритме, равновесии и архитектурной тишине. Создана из фрагмента ветви с естественными формами и минимальным вмешательством. Поверхность старого дуба сохраняет следы времени, а вертикальная структура отсылает к ритму венецианских фасадов. Сдержанная работа с ясным, собранным присутствием. Размеры: 71 × 18 × 38 см"
   },
   {
     "title": "Ocean Spirit",
@@ -470,9 +476,9 @@
       "images/ocean-spirit.jpg",
       "images/ocean-spirit-2.jpg",
       "images/ocean-spirit-3.jpg",
-      "images/ocean-spirit-4.jpg",
-      "images/ocean-spirit-5.jpg"
-    ]
+      "images/ocean-spirit-4.jpg"
+    ],
+    "description_ru": "Созданная из естественно сформированного дуба, эта работа передаёт массу и спокойное движение воды. Скульптура воспринимается не как образ, а как состояние — тихое, устойчивое присутствие. Размеры: 81 × 18 × 30 см"
   },
   {
     "title": "Rebirth",
@@ -485,9 +491,9 @@
     "images": [
       "images/rebirth.jpg",
       "images/rebirth-2.jpg",
-      "images/rebirth-3.jpg",
-      "images/rebirth-4.jpg"
-    ]
+      "images/rebirth-3.jpg"
+    ],
+    "description_ru": "Работа выполнена из сохранённой части ветви 300-летнего дуба. Внутренняя часть дерева со временем превратилась в пыль, оставив лишь прочную внешнюю форму, сформированную природой. Плавные линии напоминают силуэт фантастического существа, словно возникающего из прошлого и оживающего в тёплом свете свечи. Структура, рельеф и естественные линии остаются нетронутыми, без вмешательства. Поверхность обработана воском и тонкими золотыми акцентами, раскрывающими глубину старой древесины. Размеры: 69 × 25 × 56 см"
   },
   {
     "title": "The Golden Fleece",
@@ -499,9 +505,9 @@
     "price": "Upon request",
     "images": [
       "images/the-golden-fleece.jpg",
-      "images/the-golden-fleece-2.jpg",
-      "images/the-golden-fleece-3.jpg"
-    ]
+      "images/the-golden-fleece-2.jpg"
+    ],
+    "description_ru": "Работа вдохновлена мифом, а не его прямым изображением. Она исследует темы ценности, защиты и памяти материала. Золотые акценты подчёркивают контраст между сырой природной поверхностью и обработанной формой. Размеры: 64 × 28 × 76 см"
   },
   {
     "title": "Abduction of Europa",
@@ -513,9 +519,9 @@
     "price": "Upon request",
     "images": [
       "images/abduction-of-europa.jpg",
-      "images/abduction-of-europa-2.jpg",
-      "images/abduction-of-europa-3.jpg"
-    ]
+      "images/abduction-of-europa-2.jpg"
+    ],
+    "description_ru": "Динамичная скульптурная форма, связанная с движением и трансформацией. Создана из фрагмента внешней части ствола и обожженной молнией внутренней поверхности. Естественные изгибы дуба направляют композицию, позволяя мифологическому образу оставаться лишь намёком, а не прямым изображением. Размеры: 30 × 30 × 70 см"
   },
   {
     "title": "Bird of paradise",
@@ -528,9 +534,9 @@
     "images": [
       "images/bird-of-paradise.jpg",
       "images/bird-of-paradise-2.jpg",
-      "images/bird-of-paradise-3.jpg",
-      "images/bird-of-paradise-4.jpg"
-    ]
+      "images/bird-of-paradise-3.jpg"
+    ],
+    "description_ru": "Вертикальная композиция, где лёгкость и подъём определяют форму. Старая древесина сохраняет естественную асимметрию, создавая ощущение тихого восхождения. Стеклянная птица на тончайшей нити словно парит в воздухе, вращаясь от тепла свечи. Размеры: 36 × 18 × 53 см"
   },
   {
     "title": "Guardian of the State",
@@ -542,8 +548,7 @@
     "price": "Upon request",
     "images": [
       "images/guardian-of-the-state.jpg",
-      "images/guardian-of-the-state-2.jpg",
-      "images/guardian-of-the-state-3.jpg"
+      "images/guardian-of-the-state-2.jpg"
     ]
   },
   {
@@ -555,9 +560,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/ascension.jpg",
-      "images/ascension-2.jpg"
-    ]
+      "images/ascension.jpg"
+    ],
+    "description_ru": "Вертикальное исследование формы, сосредоточенное на движении вверх. Естественный рисунок древесины усиливает ощущение роста и подъёма. Размеры: 43 × 15 × 71 см"
   },
   {
     "title": "Wild Cat the Jaguar",
@@ -569,9 +574,9 @@
     "price": "Upon request",
     "images": [
       "images/wild-cat-the-jaguar.jpg",
-      "images/wild-cat-the-jaguar-2.jpg",
-      "images/wild-cat-the-jaguar-3.jpg"
-    ]
+      "images/wild-cat-the-jaguar-2.jpg"
+    ],
+    "description_ru": "Компактная форма животного, построенная на контрасте напряжения и сдержанности. Работа уходит от реализма, сосредотачиваясь на позе и скрытой энергии. Размеры: 84 × 20 × 28 см"
   },
   {
     "title": "The Boar",
@@ -583,7 +588,8 @@
     "price": null,
     "images": [
       "images/the-boar.jpg"
-    ]
+    ],
+    "description_ru": "Плотная, устойчивая форма, передающая силу и сопротивление. Поверхность дерева почти не затронута, усиливая ощущение природной мощи. Размеры: 15 × 46 × 36 см"
   },
   {
     "title": "The Rhino",
@@ -595,7 +601,8 @@
     "price": null,
     "images": [
       "images/the-rhino.jpg"
-    ]
+    ],
+    "description_ru": "Плотная, собранная форма, построенная на массе и внутреннем напряжении. Многовековая часть дерева несёт ощущение выносливости и тихой силы — это не движение, а энергия, удержанная внутри. Размеры: 30 × 20 × 30 см"
   },
   {
     "title": "Bullfighting",
@@ -607,7 +614,8 @@
     "price": null,
     "images": [
       "images/bullfighting.jpg"
-    ]
+    ],
+    "description_ru": "Композиция, построенная на столкновении и равновесии. Форма фиксирует момент до удара — точку, где сила и уязвимость существуют одновременно внутри одной структуры."
   },
   {
     "title": "The Owl of Athens",
@@ -619,7 +627,8 @@
     "price": "Upon request",
     "images": [
       "images/the-owl-of-athens.jpg"
-    ]
+    ],
+    "description_ru": "Созерцательный скульптурный объект, отсылающий к внимательности и знанию. Поверхность дуба почти не затронута, позволяя возрасту, структуре и свету формировать характер работы. Размеры: 81 × 18 × 41 см"
   },
   {
     "title": "The legend of the falcon",
@@ -631,9 +640,9 @@
     "price": "Upon request",
     "images": [
       "images/the-legend-of-the-falcon.jpg",
-      "images/the-legend-of-the-falcon-2.jpg",
-      "images/the-legend-of-the-falcon-3.jpg"
-    ]
+      "images/the-legend-of-the-falcon-2.jpg"
+    ],
+    "description_ru": "Вытянутая форма, построенная на ощущении скорости и подъёма. Скульптура передаёт полёт через ритм и пропорции, избегая прямого изображения. Размеры: 89 × 25 × 95 см"
   },
   {
     "title": "Dragon dance",
@@ -644,9 +653,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/dragon-dance.jpg",
-      "images/dragon-dance-2.jpg"
-    ]
+      "images/dragon-dance.jpg"
+    ],
+    "description_ru": "Динамичная композиция из скрученного фрагмента дуба. Движение разворачивается вверх, следуя естественным изгибам и внутреннему импульсу материала. Использована уцелевшая внешняя часть дуба. Размеры: 83 × 30 × 50 см"
   },
   {
     "title": "Varan and dragonfly",
@@ -658,7 +667,8 @@
     "price": null,
     "images": [
       "images/varan-and-dragonfly.jpg"
-    ]
+    ],
+    "description_ru": "Двойственное присутствие внутри одной формы. Контраст тяжести и лёгкости создаёт напряжение, в котором неподвижность намекает на движение. Размеры: 40 × 80 см"
   },
   {
     "title": "Touch of the ocean",
@@ -673,9 +683,9 @@
       "images/touch-of-the-ocean-2.jpg",
       "images/touch-of-the-ocean-3.jpg",
       "images/touch-of-the-ocean-4.jpg",
-      "images/touch-of-the-ocean-5.jpg",
-      "images/touch-of-the-ocean-6.jpg"
-    ]
+      "images/touch-of-the-ocean-5.jpg"
+    ],
+    "description_ru": "Плавная, текучая форма, сформированная попаданием молнии и временем. Обугленная от молнии поверхность дерева, наперекор законам природы, сохраняет память о воде, создавая ощущение тихого соприкосновения. Золочёный коралл усиливает чувства. Размеры: 86 × 23 × 8 см"
   },
   {
     "title": "Cachalot's Shadow",
@@ -686,9 +696,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/cachalot-s-shadow.jpg",
-      "images/cachalot-s-shadow-2.jpg"
-    ]
+      "images/cachalot-s-shadow.jpg"
+    ],
+    "description_ru": "Скульптурный силуэт, построенный не на образе, а на ощущении масштаба и глубины. Созданный силами природы и нашедший своё место, уцелевший фрагмент дерева. Затемнённая поверхность дуба поглощает свет, усиливая массу и внутренний объём. Размеры: 102 × 25 × 40 см"
   },
   {
     "title": "Night Flight",
@@ -703,9 +713,9 @@
       "images/night-flight-2.jpg",
       "images/night-flight-3.jpg",
       "images/night-flight-4.jpg",
-      "images/night-flight-5.jpg",
-      "images/night-flight-6.jpg"
-    ]
+      "images/night-flight-5.jpg"
+    ],
+    "description_ru": "Растянутая горизонтальная форма, создающая ощущение полёта загадочного существа. Зажженные свечи, усиливают мистическое восприятие скульптуры. Скульптура воспринимается как момент между подъёмом и исчезновением. Размеры: 112 × 18 × 41 см"
   },
   {
     "title": "Rising moon",
@@ -717,9 +727,9 @@
     "price": null,
     "images": [
       "images/rising-moon.jpg",
-      "images/rising-moon-2.jpg",
-      "images/rising-moon-3.jpg"
-    ]
+      "images/rising-moon-2.jpg"
+    ],
+    "description_ru": "Сдержанный круговой жест, возникающий от дерева со следами удара молнии и мягкого света свечи. Свет и тень мягко взаимодействуют, создавая спокойное, цикличное присутствие. Размеры: 76 × 37 × 93 см"
   },
   {
     "title": "Crescent Moon",
@@ -732,9 +742,9 @@
     "images": [
       "images/crescent-moon.jpg",
       "images/crescent-moon-2.jpg",
-      "images/crescent-moon-3.jpg",
-      "images/crescent-moon-4.jpg"
-    ]
+      "images/crescent-moon-3.jpg"
+    ],
+    "description_ru": "Изогнутая скульптурная форма, сформированная естественным разломом от удара молнии Полумесяц воспринимается как тихий знак перехода — форма, удерживающая свет, не отражая его напрямую. Размеры: 76 × 37 × 93 см"
   },
   {
     "title": "Mirage",
@@ -746,9 +756,9 @@
     "price": null,
     "images": [
       "images/mirage.jpg",
-      "images/mirage-2.jpg",
-      "images/mirage-3.jpg"
-    ]
+      "images/mirage-2.jpg"
+    ],
+    "description_ru": "Неоднозначная форма, меняющаяся в зависимости от точки зрения и света. Скульптура удерживает одновременно ощущение присутствия и дистанции, словно материал избегает однозначного прочтения. Размеры: 40 × 45 × 30 см"
   },
   {
     "title": "Vertical",
@@ -759,9 +769,9 @@
     "status": "Sold",
     "price": null,
     "images": [
-      "images/vertical.jpg",
-      "images/vertical-2.jpg"
-    ]
+      "images/vertical.jpg"
+    ],
+    "description_ru": "Минимальная вертикальная структура, построенная на пропорции и равновесии. Поверхность старого дуба сохраняет тонкие вариации, позволяя форме оставаться сдержанной и точной. Размеры: 50 × 30 × 60 см"
   },
   {
     "title": "Prayer",
@@ -773,9 +783,9 @@
     "price": "Upon request",
     "images": [
       "images/prayer.jpg",
-      "images/prayer-2.jpg",
-      "images/prayer-3.jpg"
-    ]
+      "images/prayer-2.jpg"
+    ],
+    "description_ru": "Компактный скульптурный объект, сосредоточенный на тишине и внутреннем внимании. Композиция опирается на простоту и природную текстуру, избегая прямой символики. Размеры: 64 × 25 × 69 см"
   },
   {
     "title": "Sacred Oak",
@@ -789,9 +799,9 @@
       "images/sacred-oak.jpg",
       "images/sacred-oak-2.jpg",
       "images/sacred-oak-3.jpg",
-      "images/sacred-oak-4.jpg",
-      "images/sacred-oak-5.jpg"
-    ]
+      "images/sacred-oak-4.jpg"
+    ],
+    "description_ru": "Фрагмент дуба, представленный с минимальным вмешательством. Работа сохраняет природную силу и редкую форму, оставляя фрагмент векового дерева главным содержанием и центром внимания. Размеры: 71 × 20 × 51 см"
   },
   {
     "title": "Paradise tree",
@@ -802,9 +812,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/paradise-tree.jpg",
-      "images/paradise-tree-2.jpg"
-    ]
+      "images/paradise-tree.jpg"
+    ],
+    "description_ru": "Вертикальная композиция, отсылающая к росту и ветвлению без прямого изображения. Свет взаимодействует с поверхностью, усиливая ощущение непрерывности и обновления. Размеры: 57 × 18 × 40 см"
   },
   {
     "title": "Angel with a candle",
@@ -819,9 +829,9 @@
       "images/angel-with-a-candle-2.jpg",
       "images/angel-with-a-candle-3.jpg",
       "images/angel-with-a-candle-4.jpg",
-      "images/angel-with-a-candle-5.jpg",
-      "images/angel-with-a-candle-6.jpg"
-    ]
+      "images/angel-with-a-candle-5.jpg"
+    ],
+    "description_ru": "Сдержанный намёк на фигуру, сформированный скорее позой, чем деталями. Свет свечи создаёт мягкий центр композиции, придавая работе спокойное, наблюдающее присутствие. Размеры: 46 × 25 × 51 см"
   },
   {
     "title": "Embrace",
@@ -836,9 +846,9 @@
       "images/embrace-2.jpg",
       "images/embrace-3.jpg",
       "images/embrace-4.jpg",
-      "images/embrace-5.jpg",
-      "images/embrace-6.jpg"
-    ]
+      "images/embrace-5.jpg"
+    ],
+    "description_ru": "Замкнутая, внутренняя композиция, сформированная двумя сходящимися формами. Связь возникает не через сюжет, а через близость и общее пространство. Размеры: 48 × 25 × 43 см"
   },
   {
     "title": "Line of Light",
@@ -852,9 +862,9 @@
       "images/line-of-light.jpg",
       "images/line-of-light-2.jpg",
       "images/line-of-light-3.jpg",
-      "images/line-of-light-4.jpg",
-      "images/line-of-light-5.jpg"
-    ]
+      "images/line-of-light-4.jpg"
+    ],
+    "description_ru": "Плавная форма елового ствола, с узорами короеда и линейным жестом. Свет проходит вдоль формы, подчёркивая направление, ритм и сдержанность. Размеры: 127 × 30 × 15 см"
   },
   {
     "title": "Openwork",
@@ -866,9 +876,9 @@
     "price": "Upon request",
     "images": [
       "images/openwork.jpg",
-      "images/openwork-2.jpg",
-      "images/openwork-3.jpg"
-    ]
+      "images/openwork-2.jpg"
+    ],
+    "description_ru": "Фрагмент разветвления ствола и ветви древнего дуба, украшенный позолочённой веточкой коралла и кусочками венецианского витражного стекла. Скульптура читается как баланс между присутствием и отсутствием, структурой и разрывом. Размеры: 80 × 40 см"
   },
   {
     "title": "Menorah Vintage",
@@ -879,9 +889,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/menorah-vintage.jpg",
-      "images/menorah-vintage-2.jpg"
-    ]
+      "images/menorah-vintage.jpg"
+    ],
+    "description_ru": "Сдержанная менора, выполненная из древнего дуба с патиной, сформированной временем. Форма несёт ощущение непрерывности, где следы использования и память материала остаются внутри самой древесины. Размеры: 74 × 20 × 58 см"
   },
   {
     "title": "Menorah sunrise",
@@ -893,7 +903,8 @@
     "price": "Upon request",
     "images": [
       "images/menorah-sunrise.jpg"
-    ]
+    ],
+    "description_ru": "Вертикальная композиция, в которой свет постепенно поднимается через структуру. Поверхность дуба мягко отражает тепло, создавая ощущение начала света, а не его пика. Размеры: 56 × 18 × 30 см"
   },
   {
     "title": "Menorah",
@@ -905,7 +916,8 @@
     "price": null,
     "images": [
       "images/menorah.jpg"
-    ]
+    ],
+    "description_ru": "Минимальная интерпретация традиционной формы. Пропорция и равновесие выходят на первый план, позволяя свету формировать присутствие объекта. Размеры: 46 × 30 × 36 см"
   },
   {
     "title": "Mehorah Imperial",
@@ -916,9 +928,9 @@
     "status": "Sold",
     "price": null,
     "images": [
-      "images/mehorah-imperial.jpg",
-      "images/mehorah-imperial-2.jpg"
-    ]
+      "images/mehorah-imperial.jpg"
+    ],
+    "description_ru": "Более монументальная менора с выраженным архитектурным ритмом. Масса дуба придаёт работе устойчивость и церемониальный характер. Размеры: 15 × 46 × 51 см"
   },
   {
     "title": "Menorah Lite",
@@ -929,9 +941,9 @@
     "status": "Available",
     "price": null,
     "images": [
-      "images/menorah-lite.jpg",
-      "images/menorah-lite-2.jpg"
-    ]
+      "images/menorah-lite.jpg"
+    ],
+    "description_ru": "Лёгкая, более открытая вариация, построенная на ясности и расстоянии между элементами. Свет получает пространство, становясь частью структуры, а не её акцентом. Размеры: 53 × 15 × 30 см"
   },
   {
     "title": "Oak Arc Menorah",
@@ -946,9 +958,9 @@
       "images/oak-arc-menorah-2.jpg",
       "images/oak-arc-menorah-3.jpg",
       "images/oak-arc-menorah-4.jpg",
-      "images/oak-arc-menorah-5.jpg",
-      "images/oak-arc-menorah-6.jpg"
-    ]
+      "images/oak-arc-menorah-5.jpg"
+    ],
+    "description_ru": "Компактная менора, вырезанная из плотного дуба, где прочность материала определяет форму. Объект ощущается собранным и точным, а свет действует как тихий акцент. Размеры: 90 × 25 × 33 см"
   },
   {
     "title": "Artwork Menorah Rainbow",
@@ -960,9 +972,9 @@
     "price": "Upon request",
     "images": [
       "images/artwork-menorah-rainbow.jpg",
-      "images/artwork-menorah-rainbow-2.jpg",
-      "images/artwork-menorah-rainbow-3.jpg"
-    ]
+      "images/artwork-menorah-rainbow-2.jpg"
+    ],
+    "description_ru": "Скульптурная менора, в которой тонкий цвет взаимодействует с пламенем. Работа исследует вариативность и гармонию, сохраняя целостность формы. Ствол ели со следами короеда. Размеры: 58 × 15 × 25 см"
   },
   {
     "title": "Joy of light (hanukkah)",
@@ -973,9 +985,9 @@
     "status": "Available",
     "price": "Upon request",
     "images": [
-      "images/joy-of-light-hanukkah.jpg",
-      "images/joy-of-light-hanukkah-2.jpg"
-    ]
+      "images/joy-of-light-hanukkah.jpg"
+    ],
+    "description_ru": "Тёплая, открытая интерпретация, построенная на свете и атмосфере. Композиция подчёркивает не структуру, а свечение, позволяя свету формировать восприятие. Размеры: 115 × 22 × 73 см"
   },
   {
     "title": "Seven lights",
@@ -986,9 +998,9 @@
     "status": "Sold",
     "price": null,
     "images": [
-      "images/seven-lights.jpg",
-      "images/seven-lights-2.jpg"
-    ]
+      "images/seven-lights.jpg"
+    ],
+    "description_ru": "Сдержанная симметричная композиция, где доминируют баланс и пропорция. Внутренняя поверхность со следами удара молнии. Свет работает как объединяющий элемент, а не как центр внимания. Размеры: 89 × 25 × 94 см"
   },
   {
     "title": "Talk to me",
@@ -1000,8 +1012,7 @@
     "price": "Upon request",
     "images": [
       "images/talk-to-me.jpg",
-      "images/talk-to-me-2.jpg",
-      "images/talk-to-me-3.jpg"
+      "images/talk-to-me-2.jpg"
     ]
   },
   {
@@ -1014,9 +1025,9 @@
     "price": "Upon request",
     "images": [
       "images/golden-bar.jpg",
-      "images/golden-bar-2.jpg",
-      "images/golden-bar-3.jpg"
-    ]
+      "images/golden-bar-2.jpg"
+    ],
+    "description_ru": "Минималистичный объект, определяемый пропорцией и плотностью материала. Работа балансирует между скульптурой и дизайном, опираясь на точность, а не на выразительность. Размеры: 57 × 18 × 40 см"
   },
   {
     "title": "Wall street",
@@ -1027,9 +1038,9 @@
     "status": "Sold",
     "price": null,
     "images": [
-      "images/wall-street.jpg",
-      "images/wall-street-2.jpg"
-    ]
+      "images/wall-street.jpg"
+    ],
+    "description_ru": "Жёсткая вертикальная композиция, связанная с ощущением структуры, давления и накопления. Поверхность дуба удерживает напряжение через сдержанность, а не через проработку поверхности. Размеры: 30 × 13 × 30 см"
   },
   {
     "title": "As-salam wall clock",
@@ -1043,9 +1054,9 @@
       "images/as-salam-wall-clock.jpg",
       "images/as-salam-wall-clock-2.jpg",
       "images/as-salam-wall-clock-3.jpg",
-      "images/as-salam-wall-clock-4.jpg",
-      "images/as-salam-wall-clock-5.jpg"
-    ]
+      "images/as-salam-wall-clock-4.jpg"
+    ],
+    "description_ru": "Настенный объект, соединяющий функцию и символ. Время присутствует тихо, встроенное в материал, а не вынесенное на первый план. Размеры: 56 × 41 × 5 см"
   },
   {
     "title": "Trophy Clock",
@@ -1061,9 +1072,9 @@
       "images/trophy-clock-3.jpg",
       "images/trophy-clock-4.jpg",
       "images/trophy-clock-5.jpg",
-      "images/trophy-clock-6.jpg",
-      "images/trophy-clock-7.jpg"
-    ]
+      "images/trophy-clock-6.jpg"
+    ],
+    "description_ru": "Компактные скульптурные часы, где функция отходит на второй план. Объект воспринимается скорее как маркер длительности, чем как инструмент измерения. Размеры: 36 × 48 × 10 см"
   },
   {
     "title": "Royal Clock Tower in Mecca. Hommage.",
@@ -1075,9 +1086,9 @@
     "price": null,
     "images": [
       "images/royal-clock-tower-in-mecca-hommage.jpg",
-      "images/royal-clock-tower-in-mecca-hommage-2.jpg",
-      "images/royal-clock-tower-in-mecca-hommage-3.jpg"
-    ]
+      "images/royal-clock-tower-in-mecca-hommage-2.jpg"
+    ],
+    "description_ru": "Архитектурный объект, отсылающий к вертикальным доминантам и структурам времени. Масштаб и симметрия формируют его присутствие. Размеры: 36 × 23 × 109 см"
   },
   {
     "title": "Burj Khalifa. Hommage.",
@@ -1089,9 +1100,9 @@
     "price": "Upon request",
     "images": [
       "images/burj-khalifa-hommage.jpg",
-      "images/burj-khalifa-hommage-2.jpg",
-      "images/burj-khalifa-hommage-3.jpg"
-    ]
+      "images/burj-khalifa-hommage-2.jpg"
+    ],
+    "description_ru": "Вытянутая вертикальная композиция, вдохновлённая экстремальной высотой и точностью. Скульптура передаёт подъём и пропорцию, избегая прямого повторения формы. Размеры: 25 × 23 × 86 см"
   },
   {
     "title": "The Christmas Tree",
@@ -1103,9 +1114,9 @@
     "price": "Upon request",
     "images": [
       "images/the-christmas-tree.jpg",
-      "images/the-christmas-tree-2.jpg",
-      "images/the-christmas-tree-3.jpg"
-    ]
+      "images/the-christmas-tree-2.jpg"
+    ],
+    "description_ru": "Упрощённая сезонная форма, сведённая к структуре и силуэту. Свет и поверхность взаимодействуют мягко, избегая декоративной перегруженности."
   },
   {
     "title": "Christmas Trinity",
@@ -1117,9 +1128,9 @@
     "price": null,
     "images": [
       "images/christmas-trinity.jpg",
-      "images/christmas-trinity-2.jpg",
-      "images/christmas-trinity-3.jpg"
-    ]
+      "images/christmas-trinity-2.jpg"
+    ],
+    "description_ru": "Символическая композиция, построенная на равновесии и повторении. Форма создаёт ощущение единства без повествовательной детализации. Размеры: 23 × 20 см"
   },
   {
     "title": "Cave paintings",
@@ -1131,9 +1142,9 @@
     "price": "Upon request",
     "images": [
       "images/cave-paintings.jpg",
-      "images/cave-paintings-2.jpg",
-      "images/cave-paintings-3.jpg"
-    ]
+      "images/cave-paintings-2.jpg"
+    ],
+    "description_ru": "Фактурная поверхность, отсылающая к ранним знакам и следам. Скульптура работает с поверхностью как с памятью, сохраняя неровность и глубину. Размеры: 100 × 10 см"
   },
   {
     "title": "Cave Flames",
@@ -1150,9 +1161,9 @@
       "images/cave-flames-4.jpg",
       "images/cave-flames-5.jpg",
       "images/cave-flames-6.jpg",
-      "images/cave-flames-7.jpg",
-      "images/cave-flames-8.jpg"
-    ]
+      "images/cave-flames-7.jpg"
+    ],
+    "description_ru": "Компактная форма, где огонь становится внутренним присутствием. Поверхность поглощает свет, создавая глубину вместо отражения. Размеры: 60 × 30 × 20 см"
   },
   {
     "title": "Cave of Light",
@@ -1166,9 +1177,9 @@
       "images/cave-of-light.jpg",
       "images/cave-of-light-2.jpg",
       "images/cave-of-light-3.jpg",
-      "images/cave-of-light-4.jpg",
-      "images/cave-of-light-5.jpg"
-    ]
+      "images/cave-of-light-4.jpg"
+    ],
+    "description_ru": "Композиция, обращённая внутрь, построенная на удержании и мягком свечении. Свет здесь не излучается наружу, а сохраняется внутри формы. Размеры: 60 × 30 × 20 см"
   },
   {
     "title": "Lurking Lizard",
@@ -1179,9 +1190,9 @@
     "status": "Sold",
     "price": null,
     "images": [
-      "images/lurking-lizard.jpg",
-      "images/lurking-lizard-2.jpg"
-    ]
+      "images/lurking-lizard.jpg"
+    ],
+    "description_ru": "Низкая, собранная форма, передающая неподвижность и настороженность. Слоистая структура древесины и напряжённый силуэт усиливают ощущение скрытого движения. Размеры: 30 × 30 × 56 см"
   },
   {
     "title": "The Echo of the jungle",
@@ -1195,9 +1206,9 @@
       "images/the-echo-of-the-jungle.jpg",
       "images/the-echo-of-the-jungle-2.jpg",
       "images/the-echo-of-the-jungle-3.jpg",
-      "images/the-echo-of-the-jungle-4.jpg",
-      "images/the-echo-of-the-jungle-5.jpg"
-    ]
+      "images/the-echo-of-the-jungle-4.jpg"
+    ],
+    "description_ru": "Органическая композиция, построенная на неровном ритме. Форма и поверхность создают ощущение отзвука, внутреннего движения и живой природной среды, избегая буквального изображения. Размеры: 69 × 43 × 33 см"
   },
   {
     "title": "Eight Flames of Miracle",
@@ -1212,8 +1223,8 @@
       "images/eight-flames-of-miracle-2.jpg",
       "images/eight-flames-of-miracle-3.jpg",
       "images/eight-flames-of-miracle-4.jpg",
-      "images/eight-flames-of-miracle-5.jpg",
-      "images/eight-flames-of-miracle-6.jpg"
-    ]
+      "images/eight-flames-of-miracle-5.jpg"
+    ],
+    "description_ru": "Символическая композиция, отсылающая к ханукии. Центральная свеча возвышается над восемью, выстраивая композицию вокруг света. Объект выполнен из полого среза берёзы и установлен на основании, напоминающем раскрытые страницы Торы, вырезанные из древнего дуба. Композиция словно приподнята над основанием, усиливая ощущение духовности и восхождения. Размеры: 38 × 33 × 28 см"
   }
 ]
