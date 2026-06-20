@@ -6,7 +6,11 @@
     "dimensions": "14 × 10 × 20 in",
     "weight": "9 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/sun-temple.jpg",
+      "images/sun-temple-2.jpg"
+    ]
   },
   {
     "title": "Vessel of Light",
@@ -15,7 +19,11 @@
     "dimensions": "8 × 33 × 55 in",
     "weight": "2 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/vessel-of-light.jpg",
+      "images/vessel-of-light-2.jpg"
+    ]
   },
   {
     "title": "Before Words",
@@ -24,7 +32,11 @@
     "dimensions": "12 × 12 × 18 in",
     "weight": "9 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/before-words.jpg",
+      "images/before-words-2.jpg"
+    ]
   },
   {
     "title": "Evening Light",
@@ -33,7 +45,11 @@
     "dimensions": "22 × 10 × 16 in",
     "weight": "9 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/evening-light.jpg",
+      "images/evening-light-2.jpg"
+    ]
   },
   {
     "title": "Only Love",
@@ -42,7 +58,10 @@
     "dimensions": "14 × 6 × 15 in",
     "weight": "7 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/only-love.jpg"
+    ]
   },
   {
     "title": "Open Heart",
@@ -51,7 +70,11 @@
     "dimensions": "20 × 8 × 20 in",
     "weight": "11 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/open-heart.jpg",
+      "images/open-heart-2.jpg"
+    ]
   },
   {
     "title": "Within",
@@ -60,7 +83,11 @@
     "dimensions": "11 × 6 × 12 in",
     "weight": "4 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/within.jpg",
+      "images/within-2.jpg"
+    ]
   },
   {
     "title": "Turning of Time",
@@ -69,7 +96,11 @@
     "dimensions": "30 × 7 × 16 in",
     "weight": "13 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/turning-of-time.jpg",
+      "images/turning-of-time-2.jpg"
+    ]
   },
   {
     "title": "Shadow of Form",
@@ -78,7 +109,11 @@
     "dimensions": "26 × 12 × 8 in",
     "weight": "9 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/shadow-of-form.jpg",
+      "images/shadow-of-form-2.jpg"
+    ]
   },
   {
     "title": "Spirit of Time",
@@ -87,7 +122,11 @@
     "dimensions": "35 × 10 × 24 in",
     "weight": "13 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/spirit-of-time.jpg",
+      "images/spirit-of-time-2.jpg"
+    ]
   },
   {
     "title": "Whole",
@@ -96,7 +135,10 @@
     "dimensions": "6 × 4 × 12 in",
     "weight": "2 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/whole.jpg"
+    ]
   },
   {
     "title": "Waiting for Wings",
@@ -105,7 +147,10 @@
     "dimensions": "16 × 16 × 14 in",
     "weight": "13 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/waiting-for-wings.jpg"
+    ]
   },
   {
     "title": "Gold Fish",
@@ -114,7 +159,12 @@
     "dimensions": "31 × 7 × 17 in",
     "weight": "14 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/gold-fish.jpg",
+      "images/gold-fish-2.jpg",
+      "images/gold-fish-3.jpg"
+    ]
   },
   {
     "title": "Wild forms",
@@ -123,7 +173,11 @@
     "dimensions": "47.2 × 23.6 in",
     "weight": "33 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/wild-forms.jpg",
+      "images/wild-forms-2.jpg"
+    ]
   },
   {
     "title": "The Joker's Smile",
@@ -132,7 +186,13 @@
     "dimensions": "15 × 5 × 15 in",
     "weight": "6 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/the-joker-s-smile.jpg",
+      "images/the-joker-s-smile-2.jpg",
+      "images/the-joker-s-smile-3.jpg",
+      "images/the-joker-s-smile-4.jpg"
+    ]
   },
   {
     "title": "Wave of luck",
@@ -141,7 +201,10 @@
     "dimensions": "29 x 11 x 33 in",
     "weight": "35 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/wave-of-luck.jpg"
+    ]
   },
   {
     "title": "Dance of Fire",
@@ -150,7 +213,11 @@
     "dimensions": null,
     "weight": null,
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/dance-of-fire.jpg",
+      "images/dance-of-fire-2.jpg"
+    ]
   },
   {
     "title": "Shell of Hera",
@@ -159,7 +226,10 @@
     "dimensions": "39.4 × 11 × 31.5 in",
     "weight": "33 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/shell-of-hera.jpg"
+    ]
   },
   {
     "title": "Embrace of Zeus",
@@ -168,7 +238,16 @@
     "dimensions": "37 × 13 × 39 in",
     "weight": "54 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/embrace-of-zeus.jpg",
+      "images/embrace-of-zeus-2.jpg",
+      "images/embrace-of-zeus-3.jpg",
+      "images/embrace-of-zeus-4.jpg",
+      "images/embrace-of-zeus-5.jpg",
+      "images/embrace-of-zeus-6.jpg",
+      "images/embrace-of-zeus-7.jpg"
+    ]
   },
   {
     "title": "Apollo's Lyre",
@@ -177,7 +256,12 @@
     "dimensions": "33 × 8 × 28 in",
     "weight": "44 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/apollo-s-lyre.jpg",
+      "images/apollo-s-lyre-2.jpg",
+      "images/apollo-s-lyre-3.jpg"
+    ]
   },
   {
     "title": "Tree of life, Bahrain",
@@ -186,7 +270,12 @@
     "dimensions": "30 × 13 × 28 in",
     "weight": "35 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/tree-of-life-bahrain.jpg",
+      "images/tree-of-life-bahrain-2.jpg",
+      "images/tree-of-life-bahrain-3.jpg"
+    ]
   },
   {
     "title": "The Wing",
@@ -195,7 +284,13 @@
     "dimensions": "39.8 × 16.9 × 31.9 in",
     "weight": "92.6 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/the-wing.jpg",
+      "images/the-wing-2.jpg",
+      "images/the-wing-3.jpg",
+      "images/the-wing-4.jpg"
+    ]
   },
   {
     "title": "Wings of Light",
@@ -204,7 +299,15 @@
     "dimensions": null,
     "weight": null,
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/wings-of-light.jpg",
+      "images/wings-of-light-2.jpg",
+      "images/wings-of-light-3.jpg",
+      "images/wings-of-light-4.jpg",
+      "images/wings-of-light-5.jpg",
+      "images/wings-of-light-6.jpg"
+    ]
   },
   {
     "title": "Wings of Soulrise",
@@ -213,7 +316,16 @@
     "dimensions": "35 × 8 × 23 in",
     "weight": "approx. 21 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/wings-of-soulrise.jpg",
+      "images/wings-of-soulrise-2.jpg",
+      "images/wings-of-soulrise-3.jpg",
+      "images/wings-of-soulrise-4.jpg",
+      "images/wings-of-soulrise-5.jpg",
+      "images/wings-of-soulrise-6.jpg",
+      "images/wings-of-soulrise-7.jpg"
+    ]
   },
   {
     "title": "The Grand Menorah",
@@ -222,7 +334,11 @@
     "dimensions": "18 × 6 × 20 in",
     "weight": "15.4 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/the-grand-menorah.jpg",
+      "images/the-grand-menorah-2.jpg"
+    ]
   },
   {
     "title": "Ancient Torah Pages (Hanukkiah)",
@@ -231,7 +347,14 @@
     "dimensions": "32 × 7 × 16 in",
     "weight": "20 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/ancient-torah-pages-hanukkiah.jpg",
+      "images/ancient-torah-pages-hanukkiah-2.jpg",
+      "images/ancient-torah-pages-hanukkiah-3.jpg",
+      "images/ancient-torah-pages-hanukkiah-4.jpg",
+      "images/ancient-torah-pages-hanukkiah-5.jpg"
+    ]
   },
   {
     "title": "Maccabee Flames",
@@ -240,7 +363,17 @@
     "dimensions": "41 × 11 × 18 in",
     "weight": "approx. 20 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/maccabee-flames.jpg",
+      "images/maccabee-flames-2.jpg",
+      "images/maccabee-flames-3.jpg",
+      "images/maccabee-flames-4.jpg",
+      "images/maccabee-flames-5.jpg",
+      "images/maccabee-flames-6.jpg",
+      "images/maccabee-flames-7.jpg",
+      "images/maccabee-flames-8.jpg"
+    ]
   },
   {
     "title": "Tablets of Stone",
@@ -249,7 +382,11 @@
     "dimensions": "33.1 × 15.7 × 43.3 in",
     "weight": "93 lbs",
     "status": "Not available for purchase",
-    "price": null
+    "price": null,
+    "images": [
+      "images/tablets-of-stone.jpg",
+      "images/tablets-of-stone-2.jpg"
+    ]
   },
   {
     "title": "Calvary",
@@ -258,7 +395,14 @@
     "dimensions": "19.7 × 66.9 × 27.6 in",
     "weight": "99 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/calvary.jpg",
+      "images/calvary-2.jpg",
+      "images/calvary-3.jpg",
+      "images/calvary-4.jpg",
+      "images/calvary-5.jpg"
+    ]
   },
   {
     "title": "Vigilance",
@@ -267,7 +411,11 @@
     "dimensions": "27 × 11 × 11 in",
     "weight": "22 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/vigilance.jpg",
+      "images/vigilance-2.jpg"
+    ]
   },
   {
     "title": "Light of the Torah",
@@ -276,7 +424,13 @@
     "dimensions": "43 x 10 x 17 in",
     "weight": "26 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/light-of-the-torah.jpg",
+      "images/light-of-the-torah-2.jpg",
+      "images/light-of-the-torah-3.jpg",
+      "images/light-of-the-torah-4.jpg"
+    ]
   },
   {
     "title": "Grace",
@@ -285,7 +439,10 @@
     "dimensions": "15 × 20 × 10 in",
     "weight": "12 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/grace.jpg"
+    ]
   },
   {
     "title": "Venice Solo",
@@ -294,7 +451,12 @@
     "dimensions": "28 × 7 × 15 in",
     "weight": "15 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/venice-solo.jpg",
+      "images/venice-solo-2.jpg",
+      "images/venice-solo-3.jpg"
+    ]
   },
   {
     "title": "Ocean Spirit",
@@ -303,7 +465,14 @@
     "dimensions": "32 x 7 x 12 in",
     "weight": "14 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/ocean-spirit.jpg",
+      "images/ocean-spirit-2.jpg",
+      "images/ocean-spirit-3.jpg",
+      "images/ocean-spirit-4.jpg",
+      "images/ocean-spirit-5.jpg"
+    ]
   },
   {
     "title": "Rebirth",
@@ -312,7 +481,13 @@
     "dimensions": "27 × 10 × 22 in",
     "weight": "18 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/rebirth.jpg",
+      "images/rebirth-2.jpg",
+      "images/rebirth-3.jpg",
+      "images/rebirth-4.jpg"
+    ]
   },
   {
     "title": "The Golden Fleece",
@@ -321,7 +496,12 @@
     "dimensions": "25 × 11 × 30 in",
     "weight": "22 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/the-golden-fleece.jpg",
+      "images/the-golden-fleece-2.jpg",
+      "images/the-golden-fleece-3.jpg"
+    ]
   },
   {
     "title": "Abduction of Europa",
@@ -330,7 +510,12 @@
     "dimensions": "11.8 × 11.8 × 27.5 in",
     "weight": "22 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/abduction-of-europa.jpg",
+      "images/abduction-of-europa-2.jpg",
+      "images/abduction-of-europa-3.jpg"
+    ]
   },
   {
     "title": "Bird of paradise",
@@ -339,7 +524,13 @@
     "dimensions": "14 × 7 × 21 in",
     "weight": "13 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/bird-of-paradise.jpg",
+      "images/bird-of-paradise-2.jpg",
+      "images/bird-of-paradise-3.jpg",
+      "images/bird-of-paradise-4.jpg"
+    ]
   },
   {
     "title": "Guardian of the State",
@@ -348,7 +539,12 @@
     "dimensions": "35 × 10 × 20 in",
     "weight": "22 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/guardian-of-the-state.jpg",
+      "images/guardian-of-the-state-2.jpg",
+      "images/guardian-of-the-state-3.jpg"
+    ]
   },
   {
     "title": "Ascension",
@@ -357,7 +553,11 @@
     "dimensions": "17 × 6 × 28 in",
     "weight": "18 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/ascension.jpg",
+      "images/ascension-2.jpg"
+    ]
   },
   {
     "title": "Wild Cat the Jaguar",
@@ -366,7 +566,12 @@
     "dimensions": "33 × 8 × 11 in",
     "weight": "16 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/wild-cat-the-jaguar.jpg",
+      "images/wild-cat-the-jaguar-2.jpg",
+      "images/wild-cat-the-jaguar-3.jpg"
+    ]
   },
   {
     "title": "The Boar",
@@ -375,7 +580,10 @@
     "dimensions": "6 × 18 × 14 in",
     "weight": "6.6 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/the-boar.jpg"
+    ]
   },
   {
     "title": "The Rhino",
@@ -384,7 +592,10 @@
     "dimensions": "12 × 8 × 12 in",
     "weight": "6.6 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/the-rhino.jpg"
+    ]
   },
   {
     "title": "Bullfighting",
@@ -393,7 +604,10 @@
     "dimensions": null,
     "weight": null,
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/bullfighting.jpg"
+    ]
   },
   {
     "title": "The Owl of Athens",
@@ -402,7 +616,10 @@
     "dimensions": "32 x 7 x 16 in",
     "weight": "20 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/the-owl-of-athens.jpg"
+    ]
   },
   {
     "title": "The legend of the falcon",
@@ -411,7 +628,12 @@
     "dimensions": "35 × 9.8 × 37.4 in",
     "weight": "33 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/the-legend-of-the-falcon.jpg",
+      "images/the-legend-of-the-falcon-2.jpg",
+      "images/the-legend-of-the-falcon-3.jpg"
+    ]
   },
   {
     "title": "Dragon dance",
@@ -420,7 +642,11 @@
     "dimensions": "32.6 × 11.8 × 19.6 in",
     "weight": "26.4 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/dragon-dance.jpg",
+      "images/dragon-dance-2.jpg"
+    ]
   },
   {
     "title": "Varan and dragonfly",
@@ -429,7 +655,10 @@
     "dimensions": "15.7 × 31.4 in",
     "weight": "26.4 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/varan-and-dragonfly.jpg"
+    ]
   },
   {
     "title": "Touch of the ocean",
@@ -438,7 +667,15 @@
     "dimensions": "34 × 9 × 3 in",
     "weight": "33 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/touch-of-the-ocean.jpg",
+      "images/touch-of-the-ocean-2.jpg",
+      "images/touch-of-the-ocean-3.jpg",
+      "images/touch-of-the-ocean-4.jpg",
+      "images/touch-of-the-ocean-5.jpg",
+      "images/touch-of-the-ocean-6.jpg"
+    ]
   },
   {
     "title": "Cachalot's Shadow",
@@ -447,7 +684,11 @@
     "dimensions": "40 × 9.8 × 15.7 in",
     "weight": "11 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/cachalot-s-shadow.jpg",
+      "images/cachalot-s-shadow-2.jpg"
+    ]
   },
   {
     "title": "Night Flight",
@@ -456,7 +697,15 @@
     "dimensions": "44 × 7 × 16 in",
     "weight": "17 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/night-flight.jpg",
+      "images/night-flight-2.jpg",
+      "images/night-flight-3.jpg",
+      "images/night-flight-4.jpg",
+      "images/night-flight-5.jpg",
+      "images/night-flight-6.jpg"
+    ]
   },
   {
     "title": "Rising moon",
@@ -465,7 +714,12 @@
     "dimensions": "30 × 14.5 × 36.6 in",
     "weight": "28.6 lb",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/rising-moon.jpg",
+      "images/rising-moon-2.jpg",
+      "images/rising-moon-3.jpg"
+    ]
   },
   {
     "title": "Crescent Moon",
@@ -474,7 +728,13 @@
     "dimensions": "30 x 14.5 x 36.6 in",
     "weight": "28.6 lb",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/crescent-moon.jpg",
+      "images/crescent-moon-2.jpg",
+      "images/crescent-moon-3.jpg",
+      "images/crescent-moon-4.jpg"
+    ]
   },
   {
     "title": "Mirage",
@@ -483,7 +743,12 @@
     "dimensions": "15.7 × 17.7 × 11.8 in",
     "weight": "11 lb",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/mirage.jpg",
+      "images/mirage-2.jpg",
+      "images/mirage-3.jpg"
+    ]
   },
   {
     "title": "Vertical",
@@ -492,7 +757,11 @@
     "dimensions": "19.6 × 11.8 × 23.6 in",
     "weight": "22 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/vertical.jpg",
+      "images/vertical-2.jpg"
+    ]
   },
   {
     "title": "Prayer",
@@ -501,7 +770,12 @@
     "dimensions": "25 × 10 × 27 in",
     "weight": "27 pounds",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/prayer.jpg",
+      "images/prayer-2.jpg",
+      "images/prayer-3.jpg"
+    ]
   },
   {
     "title": "Sacred Oak",
@@ -510,7 +784,14 @@
     "dimensions": "28 × 8 × 20 in",
     "weight": "~20 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/sacred-oak.jpg",
+      "images/sacred-oak-2.jpg",
+      "images/sacred-oak-3.jpg",
+      "images/sacred-oak-4.jpg",
+      "images/sacred-oak-5.jpg"
+    ]
   },
   {
     "title": "Paradise tree",
@@ -519,7 +800,11 @@
     "dimensions": "22.4 × 7 × 15.7 in",
     "weight": "6 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/paradise-tree.jpg",
+      "images/paradise-tree-2.jpg"
+    ]
   },
   {
     "title": "Angel with a candle",
@@ -528,7 +813,15 @@
     "dimensions": "18 x 10 x 20 in",
     "weight": "22 lb",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/angel-with-a-candle.jpg",
+      "images/angel-with-a-candle-2.jpg",
+      "images/angel-with-a-candle-3.jpg",
+      "images/angel-with-a-candle-4.jpg",
+      "images/angel-with-a-candle-5.jpg",
+      "images/angel-with-a-candle-6.jpg"
+    ]
   },
   {
     "title": "Embrace",
@@ -537,7 +830,15 @@
     "dimensions": "19 × 10 × 17 in",
     "weight": "16 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/embrace.jpg",
+      "images/embrace-2.jpg",
+      "images/embrace-3.jpg",
+      "images/embrace-4.jpg",
+      "images/embrace-5.jpg",
+      "images/embrace-6.jpg"
+    ]
   },
   {
     "title": "Line of Light",
@@ -546,7 +847,14 @@
     "dimensions": "50 × 12 × 6 in",
     "weight": "approx. 24 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/line-of-light.jpg",
+      "images/line-of-light-2.jpg",
+      "images/line-of-light-3.jpg",
+      "images/line-of-light-4.jpg",
+      "images/line-of-light-5.jpg"
+    ]
   },
   {
     "title": "Openwork",
@@ -555,7 +863,12 @@
     "dimensions": "31.4 × 15.7 in",
     "weight": "4.4 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/openwork.jpg",
+      "images/openwork-2.jpg",
+      "images/openwork-3.jpg"
+    ]
   },
   {
     "title": "Menorah Vintage",
@@ -564,7 +877,11 @@
     "dimensions": "29 × 8 × 23 in",
     "weight": "12 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/menorah-vintage.jpg",
+      "images/menorah-vintage-2.jpg"
+    ]
   },
   {
     "title": "Menorah sunrise",
@@ -573,7 +890,10 @@
     "dimensions": "approx. 22 x 7 x 12 in",
     "weight": "approx. 9 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/menorah-sunrise.jpg"
+    ]
   },
   {
     "title": "Menorah",
@@ -582,7 +902,10 @@
     "dimensions": "approx. 18 x 12 x 14 in",
     "weight": "approx. 14–16 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/menorah.jpg"
+    ]
   },
   {
     "title": "Mehorah Imperial",
@@ -591,7 +914,11 @@
     "dimensions": "6 × 18 × 20 in",
     "weight": "17.6 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/mehorah-imperial.jpg",
+      "images/mehorah-imperial-2.jpg"
+    ]
   },
   {
     "title": "Menorah Lite",
@@ -600,7 +927,11 @@
     "dimensions": "21 x 6 x 12 in",
     "weight": "11 lbs",
     "status": "Available",
-    "price": null
+    "price": null,
+    "images": [
+      "images/menorah-lite.jpg",
+      "images/menorah-lite-2.jpg"
+    ]
   },
   {
     "title": "Oak Arc Menorah",
@@ -609,7 +940,15 @@
     "dimensions": "35.4 × 9.8 × 13 in",
     "weight": "approx. 15.4 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/oak-arc-menorah.jpg",
+      "images/oak-arc-menorah-2.jpg",
+      "images/oak-arc-menorah-3.jpg",
+      "images/oak-arc-menorah-4.jpg",
+      "images/oak-arc-menorah-5.jpg",
+      "images/oak-arc-menorah-6.jpg"
+    ]
   },
   {
     "title": "Artwork Menorah Rainbow",
@@ -618,7 +957,12 @@
     "dimensions": "23 × 6 × 10 in",
     "weight": "8.8 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/artwork-menorah-rainbow.jpg",
+      "images/artwork-menorah-rainbow-2.jpg",
+      "images/artwork-menorah-rainbow-3.jpg"
+    ]
   },
   {
     "title": "Joy of light (hanukkah)",
@@ -627,7 +971,11 @@
     "dimensions": "45.3 × 8.7 × 28.7 in",
     "weight": "16.5 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/joy-of-light-hanukkah.jpg",
+      "images/joy-of-light-hanukkah-2.jpg"
+    ]
   },
   {
     "title": "Seven lights",
@@ -636,7 +984,11 @@
     "dimensions": "35 × 10 × 37 in",
     "weight": "28.6 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/seven-lights.jpg",
+      "images/seven-lights-2.jpg"
+    ]
   },
   {
     "title": "Talk to me",
@@ -645,7 +997,12 @@
     "dimensions": "12 × 12 × 18 in",
     "weight": "20 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/talk-to-me.jpg",
+      "images/talk-to-me-2.jpg",
+      "images/talk-to-me-3.jpg"
+    ]
   },
   {
     "title": "Golden bar",
@@ -654,7 +1011,12 @@
     "dimensions": "22.4 × 7 × 15.7 in",
     "weight": "6 lb",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/golden-bar.jpg",
+      "images/golden-bar-2.jpg",
+      "images/golden-bar-3.jpg"
+    ]
   },
   {
     "title": "Wall street",
@@ -663,7 +1025,11 @@
     "dimensions": "12 × 5 × 12 in",
     "weight": "4.4 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/wall-street.jpg",
+      "images/wall-street-2.jpg"
+    ]
   },
   {
     "title": "As-salam wall clock",
@@ -672,7 +1038,14 @@
     "dimensions": "22 × 16 × 2 in",
     "weight": "13 lb",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/as-salam-wall-clock.jpg",
+      "images/as-salam-wall-clock-2.jpg",
+      "images/as-salam-wall-clock-3.jpg",
+      "images/as-salam-wall-clock-4.jpg",
+      "images/as-salam-wall-clock-5.jpg"
+    ]
   },
   {
     "title": "Trophy Clock",
@@ -681,7 +1054,16 @@
     "dimensions": "14 × 19 × 4 in",
     "weight": "13 lb",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/trophy-clock.jpg",
+      "images/trophy-clock-2.jpg",
+      "images/trophy-clock-3.jpg",
+      "images/trophy-clock-4.jpg",
+      "images/trophy-clock-5.jpg",
+      "images/trophy-clock-6.jpg",
+      "images/trophy-clock-7.jpg"
+    ]
   },
   {
     "title": "Royal Clock Tower in Mecca. Hommage.",
@@ -690,7 +1072,12 @@
     "dimensions": "14 × 9 × 43 in",
     "weight": "12 lb",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/royal-clock-tower-in-mecca-hommage.jpg",
+      "images/royal-clock-tower-in-mecca-hommage-2.jpg",
+      "images/royal-clock-tower-in-mecca-hommage-3.jpg"
+    ]
   },
   {
     "title": "Burj Khalifa. Hommage.",
@@ -699,7 +1086,12 @@
     "dimensions": "9.8 × 9 × 34 in",
     "weight": "33 lb",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/burj-khalifa-hommage.jpg",
+      "images/burj-khalifa-hommage-2.jpg",
+      "images/burj-khalifa-hommage-3.jpg"
+    ]
   },
   {
     "title": "The Christmas Tree",
@@ -708,7 +1100,12 @@
     "dimensions": null,
     "weight": null,
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/the-christmas-tree.jpg",
+      "images/the-christmas-tree-2.jpg",
+      "images/the-christmas-tree-3.jpg"
+    ]
   },
   {
     "title": "Christmas Trinity",
@@ -717,7 +1114,12 @@
     "dimensions": "9 x 7,8 in",
     "weight": "3,3 lbs",
     "status": "Available",
-    "price": null
+    "price": null,
+    "images": [
+      "images/christmas-trinity.jpg",
+      "images/christmas-trinity-2.jpg",
+      "images/christmas-trinity-3.jpg"
+    ]
   },
   {
     "title": "Cave paintings",
@@ -726,7 +1128,12 @@
     "dimensions": "39.3 × 4 in",
     "weight": "11 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/cave-paintings.jpg",
+      "images/cave-paintings-2.jpg",
+      "images/cave-paintings-3.jpg"
+    ]
   },
   {
     "title": "Cave Flames",
@@ -735,7 +1142,17 @@
     "dimensions": "23.6 × 11.8 × 7.8 in",
     "weight": "approx. 15-16 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/cave-flames.jpg",
+      "images/cave-flames-2.jpg",
+      "images/cave-flames-3.jpg",
+      "images/cave-flames-4.jpg",
+      "images/cave-flames-5.jpg",
+      "images/cave-flames-6.jpg",
+      "images/cave-flames-7.jpg",
+      "images/cave-flames-8.jpg"
+    ]
   },
   {
     "title": "Cave of Light",
@@ -744,7 +1161,14 @@
     "dimensions": "23.6 × 11.8 × 7.8 in",
     "weight": "7 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/cave-of-light.jpg",
+      "images/cave-of-light-2.jpg",
+      "images/cave-of-light-3.jpg",
+      "images/cave-of-light-4.jpg",
+      "images/cave-of-light-5.jpg"
+    ]
   },
   {
     "title": "Lurking Lizard",
@@ -753,7 +1177,11 @@
     "dimensions": "12 × 12 × 22 in",
     "weight": "15.4 lbs",
     "status": "Sold",
-    "price": null
+    "price": null,
+    "images": [
+      "images/lurking-lizard.jpg",
+      "images/lurking-lizard-2.jpg"
+    ]
   },
   {
     "title": "The Echo of the jungle",
@@ -762,7 +1190,14 @@
     "dimensions": "27 x 17 x 13 in",
     "weight": "13 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/the-echo-of-the-jungle.jpg",
+      "images/the-echo-of-the-jungle-2.jpg",
+      "images/the-echo-of-the-jungle-3.jpg",
+      "images/the-echo-of-the-jungle-4.jpg",
+      "images/the-echo-of-the-jungle-5.jpg"
+    ]
   },
   {
     "title": "Eight Flames of Miracle",
@@ -771,6 +1206,14 @@
     "dimensions": "15 x 13 x 11 in",
     "weight": "24 lbs",
     "status": "Available",
-    "price": "Upon request"
+    "price": "Upon request",
+    "images": [
+      "images/eight-flames-of-miracle.jpg",
+      "images/eight-flames-of-miracle-2.jpg",
+      "images/eight-flames-of-miracle-3.jpg",
+      "images/eight-flames-of-miracle-4.jpg",
+      "images/eight-flames-of-miracle-5.jpg",
+      "images/eight-flames-of-miracle-6.jpg"
+    ]
   }
 ]
