@@ -27,7 +27,7 @@
   .tile:hover img { filter:brightness(0.95) sepia(0.1); transform:scale(1.1); }
   .tile-overlay { position:absolute; bottom:0; left:0; right:0; padding:10px; background:linear-gradient(transparent, rgba(10,9,8,0.92)); }
   .tile-title { font-size:12px; color:#e8d9bd; }
-  .tile-status { font-size:9px; letter-spacing:1px; text-transform:uppercase; margin-top:2px; }
+  .tile-status { display:none; }
   .tile-status.available { color:#8fae8a; }
   .tile-status.sold { color:#a87a6b; }
   .tile-status.na { color:#6b5d49; }
@@ -40,12 +40,25 @@
   .exh-list { padding:0 28px 20px; }
   .exh-row { display:flex; gap:16px; padding:6px 0; font-size:13px; color:#cdbf9e; border-bottom:1px solid #1c1815; }
   .exh-row strong { color:#c9a468; min-width:90px; }
+  .provenance-media { display:flex; flex-wrap:wrap; gap:20px; padding:24px 28px 4px; }
+  .provenance-figure { flex:1 1 320px; max-width:480px; margin:0; }
+  .provenance-figure img { width:100%; display:block; cursor:zoom-in; filter:brightness(0.92); transition:filter .2s; }
+  .provenance-figure img:hover { filter:brightness(1); }
+  .provenance-figure figcaption { font-size:11px; color:#8a7a5f; letter-spacing:0.3px; line-height:1.5; margin-top:8px; }
+  .provenance-quote { margin:28px 28px; padding:24px 0; border-top:1px solid #2a231c; border-bottom:1px solid #2a231c; text-align:center; font-style:italic; font-size:20px; color:#c9a468; max-width:640px; margin-left:auto; margin-right:auto; }
+  .provenance-historic { max-width:560px; margin:0 auto; padding:0 28px; }
+  .provenance-points { padding:0 28px; margin:14px 0 0; list-style:none; display:flex; flex-wrap:wrap; gap:8px 18px; font-size:12px; color:#cdbf9e; }
+  .provenance-points li::before { content:"— "; color:#8a7a5f; }
   .modal-bg { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); z-index:50; align-items:center; justify-content:center; }
   .modal-bg.open { display:flex; }
   .modal-card { background:#0a0908; border:1px solid #3a2f24; width:min(1300px, 95vw); max-height:95vh; overflow-y:auto; padding:28px; position:relative; }
   .modal-close { position:absolute; top:10px; right:14px; cursor:pointer; color:#a8916b; font-size:24px; z-index:2; background:rgba(10,9,8,0.6); width:34px; height:34px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
   .modal-carousel { position:relative; background:#000; margin:-28px -28px 18px; }
-  #modal-img { width:100%; max-height:75vh; object-fit:contain; display:block; background:#000; }
+  #modal-img { width:100%; max-height:75vh; object-fit:contain; display:block; background:#000; cursor:zoom-in; }
+  .modal-card.zoomed { width:100vw; max-width:100vw; height:100vh; max-height:100vh; padding:0; }
+  .modal-card.zoomed .modal-carousel { margin:0; height:100vh; }
+  .modal-card.zoomed #modal-img { max-height:100vh; height:100vh; cursor:zoom-out; }
+  .modal-card.zoomed #modal-title, .modal-card.zoomed #modal-desc, .modal-card.zoomed #modal-meta { display:none; }
   .carousel-arrow { position:absolute; top:50%; transform:translateY(-50%); background:rgba(10,9,8,0.6); border:1px solid #c9a468; color:#c9a468; width:48px; height:48px; border-radius:50%; cursor:pointer; font-size:22px; display:flex; align-items:center; justify-content:center; }
   .carousel-prev { left:16px; }
   .carousel-next { right:16px; }
@@ -76,7 +89,7 @@
 
 <header>
   <div class="logo">CHEGLAKOV ART</div>
-  <nav><a href="#about" data-en="About" data-ru="О художнике">About</a><a href="#the-witnessing-wood" data-en="The Witnessing Wood" data-ru="Свидетельствующее дерево">The Witnessing Wood</a><a href="#meditations-in-wood" data-en="Meditations in Wood" data-ru="Размышления в дереве">Meditations in Wood</a><a href="#light-sculptures" data-en="Light Sculptures" data-ru="Световые скульптуры">Light Sculptures</a><a href="#animal-forms" data-en="Animal Forms" data-ru="Образы животных">Animal Forms</a><a href="#organic-forms" data-en="Organic Forms" data-ru="Органические формы">Organic Forms</a><a href="#architectural-objects" data-en="Architectural Objects" data-ru="Архитектурные объекты">Architectural Objects</a><a href="#seasonal-works" data-en="Seasonal Works" data-ru="Сезонные работы">Seasonal Works</a><a href="#works-in-interior" data-en="Works in Interior" data-ru="Работы в интерьере">Works in Interior</a><a href="#exhibitions" data-en="Exhibitions" data-ru="Выставки">Exhibitions</a><a href="#contacts" data-en="Contacts" data-ru="Контакты">Contacts</a></nav>
+  <nav><a href="#about" data-en="About" data-ru="О художнике">About</a><a href="#material-provenance" data-en="Material Provenance" data-ru="Происхождение материала">Material Provenance</a><a href="#the-witnessing-wood" data-en="The Witnessing Wood" data-ru="Свидетельствующее дерево">The Witnessing Wood</a><a href="#light-sculptures" data-en="Light Sculptures" data-ru="Световые скульптуры">Light Sculptures</a><a href="#animal-forms" data-en="Animal Forms" data-ru="Образы животных">Animal Forms</a><a href="#organic-forms" data-en="Organic Forms" data-ru="Органические формы">Organic Forms</a><a href="#architectural-objects" data-en="Architectural Objects" data-ru="Архитектурные объекты">Architectural Objects</a><a href="#works-in-interior" data-en="Works in Interior Visualization" data-ru="Визуализация в интерьере">Works in Interior Visualization</a><a href="#exhibitions" data-en="Exhibitions" data-ru="Выставки">Exhibitions</a><a href="#contacts" data-en="Contacts" data-ru="Контакты">Contacts</a></nav>
   <div class="controls">
     <input id="search" type="text" placeholder="Search work..." oninput="filterTiles(this.value)">
     <button id="lang-toggle" onclick="toggleLang()">RU / EN</button>
@@ -88,6 +101,42 @@
 <section class="text-section" id="about">
   <div class="section-header"><div class="section-label">About</div><h2 class="section-title" data-en="About the Artist" data-ru="О художнике">About the Artist</h2></div>
   <p class="prose" data-en="I create sculptural objects from centuries-old wood shaped by time and natural forces. The material comes from oak trees that lived for hundreds of years before becoming fragments — many from regions crossed by Napoleon Bonaparte's 1812 campaign. I do not alter their form. I work with what already exists, preserving natural relief, fractures, and traces of age. My intervention is minimal: wax, metal, and light are used only to stabilize and clarify the structure. Each work is unique." data-ru="Я создаю скульптурные объекты из многовековой древесины, сформированной временем и природными силами. Материал — дубы, простоявшие сотни лет, многие из регионов, через которые проходила кампания Наполеона 1812 года. Я не изменяю их форму. Я работаю с тем, что уже существует, сохраняя естественный рельеф, трещины и следы возраста. Моё вмешательство минимально: воск, металл и свет используются только для стабилизации и прояснения структуры. Каждая работа уникальна.">I create sculptural objects from centuries-old wood shaped by time and natural forces. The material comes from oak trees that lived for hundreds of years before becoming fragments — many from regions crossed by Napoleon Bonaparte's 1812 campaign. I do not alter their form. I work with what already exists, preserving natural relief, fractures, and traces of age. My intervention is minimal: wax, metal, and light are used only to stabilize and clarify the structure. Each work is unique.</p>
+</section>
+
+
+<section class="text-section" id="material-provenance">
+  <div class="section-header"><div class="section-label">About</div><h2 class="section-title" data-en="Material Provenance" data-ru="Происхождение материала">Material Provenance</h2></div>
+  <p class="prose" data-en="The wood used in these works comes from oak trees that lived for nearly three centuries in regions affected by major historical movements of the early 19th century. During their lifetime, these landscapes witnessed the passage of Napoleon Bonaparte's army during the 1812 campaign. This historical context is not used as narrative illustration. It serves as factual evidence of the material's age and continuity. Each fragment is accompanied by documentation confirming its age and origin." data-ru="Древесина, использованная в этих работах, происходит от дубов, простоявших почти три столетия в местах, затронутых крупными историческими событиями начала XIX века. На протяжении своей жизни эти ландшафты были свидетелями похода армии Наполеона Бонапарта в 1812 году. Этот исторический контекст не используется как сюжетная иллюстрация — он служит фактическим подтверждением возраста и непрерывности существования материала. Каждый фрагмент сопровождается документацией, подтверждающей его возраст и происхождение.">The wood used in these works comes from oak trees that lived for nearly three centuries in regions affected by major historical movements of the early 19th century. During their lifetime, these landscapes witnessed the passage of Napoleon Bonaparte's army during the 1812 campaign. This historical context is not used as narrative illustration. It serves as factual evidence of the material's age and continuity. Each fragment is accompanied by documentation confirming its age and origin.</p>
+
+  <div class="provenance-media">
+    <figure class="provenance-figure">
+      <img src="images/provenance-certificate.jpg" class="zoomable" onclick="openZoom(this)" alt="Age verification certificate">
+      <figcaption data-en="Independent age verification certificate confirming the age and origin of the material." data-ru="Независимый сертификат, подтверждающий возраст и происхождение материала.">Independent age verification certificate confirming the age and origin of the material.</figcaption>
+    </figure>
+    <figure class="provenance-figure">
+      <img src="images/provenance-tree-snow.jpg" class="zoomable" onclick="openZoom(this)" alt="Source material near the Nara River">
+      <figcaption data-en="The source material in its natural environment near the Nara River, Kaluga Region, Russia." data-ru="Исходный материал в естественной среде у реки Нара, Калужская область, Россия.">The source material in its natural environment near the Nara River, Kaluga Region, Russia.</figcaption>
+    </figure>
+  </div>
+
+  <blockquote class="provenance-quote" data-en="The trees remained rooted while human history unfolded around them." data-ru="Деревья оставались на своих местах, пока вокруг них разворачивалась история человечества.">The trees remained rooted while human history unfolded around them.</blockquote>
+
+  <figure class="provenance-figure provenance-historic">
+    <img src="images/provenance-1812-campaign.jpg" class="zoomable" onclick="openZoom(this)" alt="Napoleon's 1812 campaign">
+    <figcaption data-en="Historic regions associated with the 1812 campaign of Napoleon Bonaparte." data-ru="Исторические места, связанные с походом Наполеона Бонапарта в 1812 году.">Historic regions associated with the 1812 campaign of Napoleon Bonaparte.</figcaption>
+  </figure>
+
+  <figure class="provenance-figure provenance-historic">
+    <img src="images/provenance-map.jpg" class="zoomable" onclick="openZoom(this)" alt="Map of the source region">
+    <figcaption data-en="Location of the source material and historic routes connected to the events of 1812." data-ru="Место происхождения материала и исторические маршруты, связанные с событиями 1812 года.">Location of the source material and historic routes connected to the events of 1812.</figcaption>
+    <ul class="provenance-points">
+      <li data-en="Nara River" data-ru="Река Нара">Nara River</li>
+      <li data-en="Old Kaluga Road" data-ru="Старая Калужская дорога">Old Kaluga Road</li>
+      <li data-en="Fominskoye" data-ru="Фоминское">Fominskoye</li>
+      <li data-en="Papino" data-ru="Папино">Papino</li>
+      <li data-en="Lykovo" data-ru="Лыково">Lykovo</li>
+    </ul>
+  </figure>
 </section>
 
 
@@ -117,7 +166,7 @@
         </div>
         <div class="tile" data-title="tablets of stone" onclick="openCard(this)"
              data-en="Created from the dry trunk of a century-old spruce, this composition evokes Mount Sinai and the moment of receiving the Tablets of Stone. The natural split of the wood defines the form. A solemn, monumental work presented at the Central Synagogue of Moscow." data-ru="Созданная из сухого ствола вековой ели, эта композиция отсылает к горе Синай и моменту получения Скрижалей Завета. Естественный раскол древесины определяет форму. Монументальная работа с выраженным духовным присутствием, представлена в синагоге Chabad of South Dade, Coconut Grove, Miami. Размеры: 84 × 40 × 110 см" data-status-en="Not available for purchase" data-status-ru="Не продаётся"
-             data-dims="33.1 × 15.7 × 43.3 in" data-images="[&quot;images/tablets-of-stone.jpg&quot;, &quot;images/tablets-of-stone-2.jpg&quot;]">
+             data-dims="33.1 × 15.7 × 43.3 in" data-year="2020" data-weight="92.6 lbs" data-images="[&quot;images/tablets-of-stone.jpg&quot;, &quot;images/tablets-of-stone-2.jpg&quot;]">
           <img src="images/tablets-of-stone.jpg" alt="Tablets of Stone" loading="lazy">
           <div class="tile-overlay">
             <div class="tile-title">Tablets of Stone</div>
@@ -195,119 +244,22 @@
             <div class="tile-title">Rebirth</div>
             <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
           </div>
-        </div></div>
-    </section>
-    <section class="gallery-section" id="meditations-in-wood" data-nav-en="Meditations in Wood" data-nav-ru="Размышления в дереве">
-      <div class="section-header">
-        <div class="section-label">Section</div>
-        <h2 class="section-title" data-en="Meditations in Wood" data-ru="Размышления в дереве">Meditations in Wood</h2>
-      </div>
-      <div class="tile-grid">
-        <div class="tile" data-title="sun temple" onclick="openCard(this)"
-             data-en="Wood Art Object for Luxury Interior Sculptural wood art from 300-year-old oak. Form holds light like a sacred space. Handcrafted art object for luxury homes and private collections." data-ru="Форма удерживает свет как в замкнутом пространстве. Тишина и тепло собираются в едином центре." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="14 × 10 × 20 in" data-images="[&quot;images/sun-temple.jpg&quot;, &quot;images/sun-temple-2.jpg&quot;]">
-          <img src="images/sun-temple.jpg" alt="Sun Temple" loading="lazy">
+        </div>
+        <div class="tile" data-title="the joker's smile" onclick="openCard(this)"
+             data-en="A rare oak cross-section shaped by time into an unexpected expression. Two candles act as luminous focal points, giving the piece a subtle, playful tension. Compact in scale, strong in character." data-ru="Редкое дубовое сечение, сформированное временем в неожиданное выражение. Две свечи становятся световыми центрами композиции, придавая работе тонкое, слегка игровое выражение. Компактная по масштабу, но сильная по характеру. Размеры: 38 × 13 × 38 см" data-status-en="Available" data-status-ru="В наличии"
+             data-dims="15 × 5 × 15 in" data-images="[&quot;images/the-joker-s-smile.jpg&quot;, &quot;images/the-joker-s-smile-2.jpg&quot;, &quot;images/the-joker-s-smile-3.jpg&quot;, &quot;images/the-joker-s-smile-4.jpg&quot;, &quot;images/the-joker-s-smile-interior.jpg&quot;]">
+          <img src="images/the-joker-s-smile.jpg" alt="The Joker's Smile" loading="lazy">
           <div class="tile-overlay">
-            <div class="tile-title">Sun Temple</div>
+            <div class="tile-title">The Joker's Smile</div>
             <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
           </div>
         </div>
-        <div class="tile" data-title="vessel of light" onclick="openCard(this)"
-             data-en="Vessel of Light — Wood Art Sculpture for Interior Wood art object from ancient oak. Form as a vessel where light is present, not just illuminating. Handcrafted for luxury interiors and private collections." data-ru="Форма как чаша, в которой возникает свет. Свет не освещает — он присутствует." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="8 × 33 × 55 in" data-images="[&quot;images/vessel-of-light.jpg&quot;, &quot;images/vessel-of-light-2.jpg&quot;]">
-          <img src="images/vessel-of-light.jpg" alt="Vessel of Light" loading="lazy">
+        <div class="tile" data-title="the echo of the jungle" onclick="openCard(this)"
+             data-en="An organic composition shaped by irregular rhythm. The surface carries layered textures, suggesting sound and movement without depiction." data-ru="Органическая композиция, построенная на неровном ритме. Форма и поверхность создают ощущение отзвука, внутреннего движения и живой природной среды, избегая буквального изображения. Размеры: 69 × 43 × 33 см" data-status-en="Available" data-status-ru="В наличии"
+             data-dims="27 x 17 x 13 in" data-weight="13 lbs" data-images="[&quot;images/the-echo-of-the-jungle.jpg&quot;, &quot;images/the-echo-of-the-jungle-2.jpg&quot;, &quot;images/the-echo-of-the-jungle-3.jpg&quot;, &quot;images/the-echo-of-the-jungle-4.jpg&quot;, &quot;images/the-echo-of-the-jungle-5.jpg&quot;]">
+          <img src="images/the-echo-of-the-jungle.jpg" alt="The Echo of the Jungle" loading="lazy">
           <div class="tile-overlay">
-            <div class="tile-title">Vessel of Light</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="before words" onclick="openCard(this)"
-             data-en="Before Words — Wood Art Sculpture for Luxury Interior Two forms leaning toward each other. Handcrafted wood sculpture from 300-year-old oak. A unique art object where meaning emerges in the pause before words." data-ru="Две формы склоняются друг к другу. Смысл возникает в паузе перед словами." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="12 × 12 × 18 in" data-images="[&quot;images/before-words.jpg&quot;, &quot;images/before-words-2.jpg&quot;]">
-          <img src="images/before-words.jpg" alt="Before Words" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Before Words</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="evening light" onclick="openCard(this)"
-             data-en="Evening Light — Wood Art Object for Luxury Home Wood sculpture from 300-year-old oak. Soft light, quiet completion. A handcrafted art object that holds the feeling of evening in any luxury interior." data-ru="Свет становится мягким и спокойным. Форма удерживает состояние завершения. Дуб, возраст до 300 лет" data-status-en="Available" data-status-ru="В наличии"
-             data-dims="22 × 10 × 16 in" data-images="[&quot;images/evening-light.jpg&quot;, &quot;images/evening-light-2.jpg&quot;]">
-          <img src="images/evening-light.jpg" alt="Evening Light" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Evening Light</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="only love" onclick="openCard(this)"
-             data-en="Only Love — Wood Art Sculpture for Luxury Interior Handcrafted wood sculpture from 300-year-old oak. Form stripped to its essence — only feeling remains. A unique art object for luxury interiors and private collections." data-ru="Форма лишена лишнего, остаётся только чувство. Простота становится смыслом." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="14 × 6 × 15 in" data-images="[&quot;images/only-love.jpg&quot;]">
-          <img src="images/only-love.jpg" alt="Only Love" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Only Love</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="open heart" onclick="openCard(this)"
-             data-en="Open Heart — Wood Art Object for Luxury Interior Handcrafted wood sculpture from 300-year-old oak. Natural form, fire and wax finish. A unique art object for luxury interiors and private collections." data-ru="Форма раскрыта и направлена навстречу. Свет проходит свободно, без сопротивления. Дуб, возраст до 300 лет" data-status-en="Available" data-status-ru="В наличии"
-             data-dims="20 × 8 × 20 in" data-images="[&quot;images/open-heart.jpg&quot;, &quot;images/open-heart-2.jpg&quot;]">
-          <img src="images/open-heart.jpg" alt="Open Heart" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Open Heart</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="within" onclick="openCard(this)"
-             data-en="Within — Wood Art Sculpture for Luxury Home Wood sculpture from ancient oak. Space concentrated inside the form. A quiet, handcrafted art object for luxury interiors and private collections." data-ru="Пространство сосредоточено внутри формы. Всё происходит в тишине." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="11 × 6 × 12 in" data-images="[&quot;images/within.jpg&quot;, &quot;images/within-2.jpg&quot;]">
-          <img src="images/within.jpg" alt="Within" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Within</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="turning of time" onclick="openCard(this)"
-             data-en="Turning of Time — Wood Art Object for Luxury Office Handcrafted wood sculpture from 300-year-old oak. Form shifts with movement — time felt as a turn, not a flow. A unique art object for luxury offices and private collections." data-ru="Форма меняется при движении. Время ощущается как поворот, а не как течение." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="30 × 7 × 16 in" data-images="[&quot;images/turning-of-time.jpg&quot;, &quot;images/turning-of-time-2.jpg&quot;]">
-          <img src="images/turning-of-time.jpg" alt="Turning of Time" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Turning of Time</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="shadow of form" onclick="openCard(this)"
-             data-en="Shadow of Form — Wood Art Object for Luxury Interior Wall-mounted wood sculpture from 300-year-old oak root. Form emerges from the depth of the material — discovered, not designed. A unique art object for luxury homes and private clubs." data-ru="Форма возникает из глубины материала. Она не задана, а обнаружена. Корень, Дуб возраст до 300 лет" data-status-en="Available" data-status-ru="В наличии"
-             data-dims="26 × 12 × 8 in" data-images="[&quot;images/shadow-of-form.jpg&quot;, &quot;images/shadow-of-form-2.jpg&quot;]">
-          <img src="images/shadow-of-form.jpg" alt="Shadow of Form" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Shadow of Form</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="spirit of time" onclick="openCard(this)"
-             data-en="Spirit of Time — Wood Art Object for Luxury Interior Wood sculpture from ancient spruce with natural bark beetle traces. Time preserved in the structure of the wood. A unique art object for luxury interiors and private collections." data-ru="Следы времени сохраняются в структуре дерева. Форма становится носителем памяти." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="35 × 10 × 24 in" data-images="[&quot;images/spirit-of-time.jpg&quot;, &quot;images/spirit-of-time-2.jpg&quot;]">
-          <img src="images/spirit-of-time.jpg" alt="Spirit of Time" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Spirit of Time</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="whole" onclick="openCard(this)"
-             data-en="Whole — Wood Art Object for Luxury Interior Wood sculpture from ancient oak. Complete form, balance achieved naturally. A handcrafted art object for luxury restaurants and private interiors." data-ru="Завершённая форма без напряжения. Баланс достигается естественно." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="6 × 4 × 12 in" data-images="[&quot;images/whole.jpg&quot;]">
-          <img src="images/whole.jpg" alt="Whole" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Whole</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="waiting for wings" onclick="openCard(this)"
-             data-en="Waiting for Wings — Wood Art Object for Luxury Home Wood sculpture from 300-year-old oak placed at a stone entrance. Space prepared for life. A handcrafted art object that brings natural energy to luxury homes and estates." data-ru="Пространство, подготовленное для жизни. Ожидание, в котором уже есть присутствие." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="16 × 16 × 14 in" data-images="[&quot;images/waiting-for-wings.jpg&quot;]">
-          <img src="images/waiting-for-wings.jpg" alt="Waiting for Wings" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Waiting for Wings</div>
+            <div class="tile-title">The Echo of the Jungle</div>
             <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
           </div>
         </div></div>
@@ -498,12 +450,12 @@
             <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
           </div>
         </div>
-        <div class="tile" data-title="the joker's smile" onclick="openCard(this)"
-             data-en="A rare oak cross-section shaped by time into an unexpected expression. Two candles act as luminous focal points, giving the piece a subtle, playful tension. Compact in scale, strong in character." data-ru="Редкое дубовое сечение, сформированное временем в неожиданное выражение. Две свечи становятся световыми центрами композиции, придавая работе тонкое, слегка игровое выражение. Компактная по масштабу, но сильная по характеру. Размеры: 38 × 13 × 38 см" data-status-en="Available" data-status-ru="В наличии"
-             data-dims="15 × 5 × 15 in" data-images="[&quot;images/the-joker-s-smile.jpg&quot;, &quot;images/the-joker-s-smile-2.jpg&quot;, &quot;images/the-joker-s-smile-3.jpg&quot;, &quot;images/the-joker-s-smile-4.jpg&quot;]">
-          <img src="images/the-joker-s-smile.jpg" alt="The Joker's Smile" loading="lazy">
+        <div class="tile" data-title="the christmas tree" onclick="openCard(this)"
+             data-en="A simplified seasonal form reduced to structure and outline. Light and surface interact softly, avoiding decorative excess." data-ru="Упрощённая сезонная форма, сведённая к структуре и силуэту. Свет и поверхность взаимодействуют мягко, избегая декоративной перегруженности." data-status-en="Available" data-status-ru="В наличии"
+             data-dims="—" data-images="[&quot;images/the-christmas-tree.jpg&quot;, &quot;images/the-christmas-tree-2.jpg&quot;, &quot;images/the-christmas-tree-3.jpg&quot;]">
+          <img src="images/the-christmas-tree.jpg" alt="The Christmas Tree" loading="lazy">
           <div class="tile-overlay">
-            <div class="tile-title">The Joker's Smile</div>
+            <div class="tile-title">The Christmas Tree</div>
             <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
           </div>
         </div></div>
@@ -710,15 +662,6 @@
             <div class="tile-status sold" data-en="Sold" data-ru="Продано">Sold</div>
           </div>
         </div>
-        <div class="tile" data-title="the echo of the jungle" onclick="openCard(this)"
-             data-en="An organic composition shaped by irregular rhythm. The surface carries layered textures, suggesting sound and movement without depiction." data-ru="Органическая композиция, построенная на неровном ритме. Форма и поверхность создают ощущение отзвука, внутреннего движения и живой природной среды, избегая буквального изображения. Размеры: 69 × 43 × 33 см" data-status-en="Available" data-status-ru="В наличии"
-             data-dims="27 x 17 x 13 in" data-images="[&quot;images/the-echo-of-the-jungle.jpg&quot;, &quot;images/the-echo-of-the-jungle-2.jpg&quot;, &quot;images/the-echo-of-the-jungle-3.jpg&quot;, &quot;images/the-echo-of-the-jungle-4.jpg&quot;, &quot;images/the-echo-of-the-jungle-5.jpg&quot;]">
-          <img src="images/the-echo-of-the-jungle.jpg" alt="The Echo of the jungle" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">The Echo of the jungle</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
         <div class="tile" data-title="abduction of europa" onclick="openCard(this)"
              data-en="A dynamic sculptural form referencing movement and transformation. The oak’s natural curves guide the composition, allowing the mythological association to remain understated." data-ru="Динамичная скульптурная форма, связанная с движением и трансформацией. Создана из фрагмента внешней части ствола и обожженной молнией внутренней поверхности. Естественные изгибы дуба направляют композицию, позволяя мифологическому образу оставаться лишь намёком, а не прямым изображением. Размеры: 30 × 30 × 70 см" data-status-en="Available" data-status-ru="В наличии"
              data-dims="11.8 × 11.8 × 27.5 in" data-images="[&quot;images/abduction-of-europa.jpg&quot;, &quot;images/abduction-of-europa-2.jpg&quot;, &quot;images/abduction-of-europa-3.jpg&quot;]">
@@ -808,6 +751,15 @@
             <div class="tile-title">The Golden Fleece</div>
             <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
           </div>
+        </div>
+        <div class="tile" data-title="christmas trinity" onclick="openCard(this)"
+             data-en="A symbolic grouping built around balance and repetition. The composition suggests unity through form rather than narrative detail." data-ru="Символическая композиция, построенная на равновесии и повторении. Форма создаёт ощущение единства без повествовательной детализации. Размеры: 23 × 20 см" data-status-en="Available" data-status-ru="В наличии"
+             data-dims="9 x 7,8 in" data-images="[&quot;images/christmas-trinity.jpg&quot;, &quot;images/christmas-trinity-2.jpg&quot;, &quot;images/christmas-trinity-3.jpg&quot;]">
+          <img src="images/christmas-trinity.jpg" alt="Christmas Trinity" loading="lazy">
+          <div class="tile-overlay">
+            <div class="tile-title">Christmas Trinity</div>
+            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
+          </div>
         </div></div>
     </section>
     <section class="gallery-section" id="architectural-objects" data-nav-en="Architectural Objects" data-nav-ru="Архитектурные объекты">
@@ -880,37 +832,12 @@
           </div>
         </div></div>
     </section>
-    <section class="gallery-section" id="seasonal-works" data-nav-en="Seasonal Works" data-nav-ru="Сезонные работы">
-      <div class="section-header">
-        <div class="section-label">Section</div>
-        <h2 class="section-title" data-en="Seasonal Works" data-ru="Сезонные работы">Seasonal Works</h2>
-      </div>
-      <div class="tile-grid">
-        <div class="tile" data-title="the christmas tree" onclick="openCard(this)"
-             data-en="A simplified seasonal form reduced to structure and outline. Light and surface interact softly, avoiding decorative excess." data-ru="Упрощённая сезонная форма, сведённая к структуре и силуэту. Свет и поверхность взаимодействуют мягко, избегая декоративной перегруженности." data-status-en="Available" data-status-ru="В наличии"
-             data-dims="—" data-images="[&quot;images/the-christmas-tree.jpg&quot;, &quot;images/the-christmas-tree-2.jpg&quot;, &quot;images/the-christmas-tree-3.jpg&quot;]">
-          <img src="images/the-christmas-tree.jpg" alt="The Christmas Tree" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">The Christmas Tree</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div>
-        <div class="tile" data-title="christmas trinity" onclick="openCard(this)"
-             data-en="A symbolic grouping built around balance and repetition. The composition suggests unity through form rather than narrative detail." data-ru="Символическая композиция, построенная на равновесии и повторении. Форма создаёт ощущение единства без повествовательной детализации. Размеры: 23 × 20 см" data-status-en="Available" data-status-ru="В наличии"
-             data-dims="9 x 7,8 in" data-images="[&quot;images/christmas-trinity.jpg&quot;, &quot;images/christmas-trinity-2.jpg&quot;, &quot;images/christmas-trinity-3.jpg&quot;]">
-          <img src="images/christmas-trinity.jpg" alt="Christmas Trinity" loading="lazy">
-          <div class="tile-overlay">
-            <div class="tile-title">Christmas Trinity</div>
-            <div class="tile-status available" data-en="Available" data-ru="В наличии">Available</div>
-          </div>
-        </div></div>
-    </section>
 
 
-<section class="gallery-section" id="works-in-interior" data-nav-en="Works in Interior" data-nav-ru="Работы в интерьере">
+<section class="gallery-section" id="works-in-interior" data-nav-en="Works in Interior Visualization" data-nav-ru="Визуализация в интерьере">
   <div class="section-header">
     <div class="section-label">Section</div>
-    <h2 class="section-title" data-en="Works in Interior" data-ru="Работы в интерьере">Works in Interior</h2>
+    <h2 class="section-title" data-en="Works in Interior Visualization" data-ru="Визуализация в интерьере">Works in Interior Visualization</h2>
   </div>
   <div class="tile-grid viz-grid">
     <div class="viz-tile">
@@ -948,13 +875,16 @@
     </div>
     <div class="viz-tile">
       <img src="images/waiting-for-wings.jpg" alt="Interior Visualization 12" loading="lazy">
+    </div>
+    <div class="viz-tile">
+      <img src="images/the-joker-s-smile-interior.jpg" alt="Interior Visualization 13" loading="lazy">
     </div></div>
 </section>
 
 
 <section class="text-section" id="exhibitions">
   <div class="section-header"><div class="section-label">Exhibitions</div><h2 class="section-title" data-en="Exhibition History" data-ru="История выставок">Exhibition History</h2></div>
-  <div class="exh-list"><div class="exh-row"><strong>2019</strong><span>The Art of Nature, Alpert Gallery, Moscow</span></div><div class="exh-row"><strong>2019</strong><span>INDECOR Moscow, Crocus Expo, Moscow</span></div><div class="exh-row"><strong>2020</strong><span>The Art of Nature, State Museum of Sergey Andriyaki, Moscow</span></div><div class="exh-row"><strong>2020</strong><span>Maison & Objet, International Exhibition, Paris</span></div><div class="exh-row"><strong>2021</strong><span>Qatar International Art Festival, Doha</span></div><div class="exh-row"><strong>2021</strong><span>Textures & Patterns, Las Laguna Art Gallery, California, USA</span></div><div class="exh-row"><strong>2021</strong><span>Bentley Motors — Autumn Tour, Russia</span></div><div class="exh-row"><strong>2024</strong><span>The Original Miami Beach Antique Show, Miami Beach Convention Center, USA</span></div><div class="exh-row"><strong>2024</strong><span>Palm Beach Fine Craft Show, Palm Beach, Florida, USA</span></div><div class="exh-row"><strong>2024</strong><span>ARTEXPO New York, Pier 36, New York, USA</span></div><div class="exh-row"><strong>2025–2026</strong><span>Hanukkah Sculptures Exhibition, Chabad of South Dade / Coconut Grove, Florida, USA</span></div></div>
+  <div class="exh-list"><div class="exh-row"><strong>2019</strong><span>The Art of Nature, Alpert Gallery, Moscow</span></div><div class="exh-row"><strong>2019</strong><span>INDECOR Moscow, Crocus Expo, Moscow</span></div><div class="exh-row"><strong>2020</strong><span>The Art of Nature, State Museum of Sergey Andriyaki, Moscow</span></div><div class="exh-row"><strong>2020</strong><span>Maison & Objet, International Exhibition, Paris</span></div><div class="exh-row"><strong>2020</strong><span>Tu BiShvat (New Year of Trees), Zhukovka Jewish Cultural Center, Moscow</span></div><div class="exh-row"><strong>2021</strong><span>Qatar International Art Festival, Doha</span></div><div class="exh-row"><strong>2021</strong><span>Textures & Patterns, Las Laguna Art Gallery, California, USA</span></div><div class="exh-row"><strong>2021</strong><span>Bentley Motors — Autumn Tour, Russia</span></div><div class="exh-row"><strong>2021–2022</strong><span>Nature as Art, Levitan Culture Center, Plyos</span></div><div class="exh-row"><strong>2024</strong><span>The Original Miami Beach Antique Show, Miami Beach Convention Center, USA</span></div><div class="exh-row"><strong>2024</strong><span>Palm Beach Fine Craft Show, Palm Beach, Florida, USA</span></div><div class="exh-row"><strong>2024</strong><span>ARTEXPO New York, Pier 36, New York, USA</span></div><div class="exh-row"><strong>2025–2026</strong><span>Hanukkah Sculptures Exhibition, Chabad of South Dade / Coconut Grove, Florida, USA</span></div></div>
 </section>
 
 <footer id="contacts">
@@ -970,7 +900,7 @@
   <div class="modal-card">
     <span class="modal-close" onclick="closeCard()">&times;</span>
     <div class="modal-carousel">
-      <img id="modal-img" src="" alt="">
+      <img id="modal-img" src="" alt="" onclick="toggleZoomCard()">
       <button class="carousel-arrow carousel-prev" onclick="shiftImage(-1)">&#8249;</button>
       <button class="carousel-arrow carousel-next" onclick="shiftImage(1)">&#8250;</button>
       <div id="modal-counter" class="carousel-counter"></div>
@@ -979,6 +909,10 @@
     <div id="modal-desc"></div>
     <div id="modal-meta"></div>
   </div>
+</div>
+
+<div class="modal-bg" id="zoom-modal" onclick="closeZoom()">
+  <img id="zoom-img" src="" alt="" style="max-width:92vw;max-height:92vh;object-fit:contain;">
 </div>
 
 <script>
@@ -1014,15 +948,30 @@ function shiftImage(delta) {
 function openCard(tile) {
   currentImages = JSON.parse(tile.getAttribute('data-images') || '[]');
   currentIndex = 0;
+  currentImages.forEach(src => { const im = new Image(); im.src = src; });
   renderImage();
   document.getElementById('modal-title').textContent = tile.querySelector('.tile-title').textContent;
   document.getElementById('modal-desc').textContent = tile.getAttribute('data-' + lang);
-  document.getElementById('modal-meta').textContent =
-    (lang === 'en' ? 'Status: ' : 'Статус: ') + tile.getAttribute('data-status-' + lang) +
+  const year = tile.getAttribute('data-year');
+  const weight = tile.getAttribute('data-weight');
+  let meta = (lang === 'en' ? 'Status: ' : 'Статус: ') + tile.getAttribute('data-status-' + lang) +
     ' — ' + (lang === 'en' ? 'Dimensions: ' : 'Размеры: ') + tile.getAttribute('data-dims');
+  if (weight) meta += ' — ' + (lang === 'en' ? 'Weight: ' : 'Вес: ') + weight;
+  if (year) meta += ' — ' + (lang === 'en' ? 'Year: ' : 'Год: ') + year;
+  document.getElementById('modal-meta').textContent = meta;
   document.getElementById('modal-bg').classList.add('open');
 }
-function closeCard() { document.getElementById('modal-bg').classList.remove('open'); }
+function closeCard() {
+  document.getElementById('modal-bg').classList.remove('open');
+  document.querySelector('.modal-card').classList.remove('zoomed');
+}
+function toggleZoomCard() { document.querySelector('.modal-card').classList.toggle('zoomed'); }
+
+function openZoom(img) {
+  document.getElementById('zoom-img').src = img.src;
+  document.getElementById('zoom-modal').classList.add('open');
+}
+function closeZoom() { document.getElementById('zoom-modal').classList.remove('open'); }
 
 let soundOn = true;
 let actx;

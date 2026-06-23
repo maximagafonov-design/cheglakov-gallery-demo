@@ -1,5 +1,6 @@
 download-manifest.json
 images-raw/
+images-original-backup/
 node_modules/
 cheglakov-main.html
 cheglakov-archive.html
